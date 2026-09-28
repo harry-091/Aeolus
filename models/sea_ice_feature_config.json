@@ -1,0 +1,14 @@
+{
+  "feature_columns": [
+    "lat",
+    "lon",
+    "month",
+    "day_of_year",
+    "sic_lag_1",
+    "sic_lag_2",
+    "sic_lag_3",
+    "sic_mean_3month"
+  ],
+  "target_column": "target_sic",
+  "model_type": "RandomForestRegressor"
+}

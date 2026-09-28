@@ -1,0 +1,39 @@
+{
+  "description": "Demo vessel scenarios for SIH demonstration. NOT real vessel positions.",
+  "note": "All coordinates are configurable demo scenarios.",
+  "vessels": [
+    {
+      "id": "vessel_a",
+      "name": "Polar Explorer A",
+      "type": "Research Vessel",
+      "start": {"lat": -54.8, "lon": -68.3},
+      "destination": {"lat": -62.2, "lon": -58.9},
+      "cruising_speed_kn": 12,
+      "draft_m": 6.5,
+      "ice_capability": "PC6",
+      "risk_tolerance": 0.7
+    },
+    {
+      "id": "vessel_b",
+      "name": "Supply Vessel B",
+      "type": "Supply Vessel",
+      "start": {"lat": -61.0, "lon": -55.0},
+      "destination": {"lat": -64.8, "lon": -63.0},
+      "cruising_speed_kn": 10,
+      "draft_m": 5.0,
+      "ice_capability": "PC7",
+      "risk_tolerance": 0.5
+    },
+    {
+      "id": "vessel_c",
+      "name": "Icebreaker C",
+      "type": "Icebreaker",
+      "start": {"lat": -62.5, "lon": -59.0},
+      "destination": {"lat": -77.8, "lon": 166.7},
+      "cruising_speed_kn": 15,
+      "draft_m": 9.0,
+      "ice_capability": "PC3",
+      "risk_tolerance": 0.8
+    }
+  ]
+}

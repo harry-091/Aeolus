@@ -1,0 +1,123 @@
+{
+  "audited_at": "2026-09-08T18:06:32Z",
+  "summary": {
+    "total_cataloged": 9,
+    "present": 9,
+    "missing": 0,
+    "valid": 9,
+    "invalid": 0
+  },
+  "datasets": {
+    "sea_ice": [
+      {
+        "id": "noaa_cdr_sic_monthly",
+        "name": "NOAA/NSIDC CDR V4 Passive Microwave Sea Ice Concentration (Monthly)",
+        "target_path": "D:\\SIH\\backend\\data\\raw\\sea_ice\\real_cdr_sic.nc",
+        "expected_format": "NetCDF-4",
+        "exists": true,
+        "size_bytes": 437488,
+        "size_kb": 427.2,
+        "status": "VERIFIED_PRESENT",
+        "sha256": "f3feeb395929a3959a279f455e73038b7f2f2e3fd4a43b92778165f06f4550ea"
+      },
+      {
+        "id": "noaa_cdr_sic_18m_series",
+        "name": "NOAA/NSIDC CDR V4 Antarctic 18-Month Time Series",
+        "target_path": "D:\\SIH\\backend\\data\\raw\\sea_ice\\real_cdr_series_18m.nc",
+        "expected_format": "NetCDF-4",
+        "exists": true,
+        "size_bytes": 1905096,
+        "size_kb": 1860.4,
+        "status": "VERIFIED_PRESENT",
+        "sha256": "6c356b71b000887f3a67f5d2b35aff5297b0263f0bc84d55b687e3beea7d5c08"
+      }
+    ],
+    "bathymetry": [
+      {
+        "id": "etopo_antarctic_bedrock",
+        "name": "NOAA NCEI ETOPO 2022 Global Relief Model (Antarctic Sector)",
+        "target_path": "D:\\SIH\\backend\\data\\raw\\bathymetry\\etopo_antarctic.nc",
+        "expected_format": "NetCDF-4",
+        "exists": true,
+        "size_bytes": 2728404,
+        "size_kb": 2664.5,
+        "status": "VERIFIED_PRESENT",
+        "sha256": "8cca4eb0d6ea477f36afcfc30f78627541bbf1758ec4f666dea7fa41944adab8"
+      }
+    ],
+    "iceberg": [
+      {
+        "id": "byu_nic_consolidated_icebergs",
+        "name": "BYU / National Ice Center (NIC) Antarctic Iceberg Database",
+        "target_path": "D:\\SIH\\backend\\data\\raw\\iceberg\\consolidated\\consolidated\\README_consolidated.TXT",
+        "expected_format": "CSV Tracking Logs (522 tracked tabular bergs)",
+        "exists": true,
+        "size_bytes": 3474,
+        "size_kb": 3.4,
+        "status": "VERIFIED_PRESENT",
+        "sha256": "e486e0178422f6fe908eb802bbaa8b00b8ebec4eef19480ad797aeee8acb22bd"
+      }
+    ],
+    "ocean": [
+      {
+        "id": "copernicus_currents_glo12",
+        "name": "Copernicus Marine Service Global Ocean Physics Reanalysis (GLO12)",
+        "target_path": "D:\\SIH\\backend\\data\\raw\\ocean\\copernicus_currents_real.nc",
+        "expected_format": "NetCDF-4",
+        "exists": true,
+        "size_bytes": 5654115,
+        "size_kb": 5521.6,
+        "status": "VERIFIED_PRESENT",
+        "sha256": "df994da40d4f36a346bc4fe752953f14a14ad38b862963c65e5d800eaf1f7b40"
+      }
+    ],
+    "weather": [
+      {
+        "id": "era5_antarctic_atmospheric",
+        "name": "ECMWF ERA5 Atmospheric Reanalysis for Antarctic Navigation",
+        "target_path": "D:\\SIH\\backend\\data\\raw\\weather\\era5_antarctic_real.nc",
+        "expected_format": "NetCDF-4",
+        "exists": true,
+        "size_bytes": 110938,
+        "size_kb": 108.3,
+        "status": "VERIFIED_PRESENT",
+        "sha256": "29fe134bf47468536214f10683470cec2df577eaef01f6dbf26a13ea465527f8"
+      }
+    ],
+    "vessels": [
+      {
+        "id": "aad_aurora_australis_tracks",
+        "name": "Australian Antarctic Division (AAD) Aurora Australis Historical GPS Tracks",
+        "target_path": "D:\\SIH\\backend\\data\\raw\\vessel_tracks\\aurora_australis_2015_16.csv",
+        "expected_format": "CSV GPS Telemetry",
+        "exists": true,
+        "size_bytes": 1180700,
+        "size_kb": 1153.0,
+        "status": "VERIFIED_PRESENT",
+        "sha256": "dc32a133f02338c73f1b615a78a35c206d026c9d14b045778944dde5a64db613"
+      },
+      {
+        "id": "pangaea_polarstern_ps118",
+        "name": "PANGAEA Alfred Wegener Institute RV Polarstern PS118 Navigation Track",
+        "target_path": "D:\\SIH\\backend\\data\\raw\\vessels_historical\\PS118-2018.csv",
+        "expected_format": "CSV GPS Telemetry",
+        "exists": true,
+        "size_bytes": 417057,
+        "size_kb": 407.3,
+        "status": "VERIFIED_PRESENT",
+        "sha256": "dba9e3edcc59662d208227bd4d448395e35e636db822353327c501831c19fcf2"
+      },
+      {
+        "id": "usap_palmer_nbp2010",
+        "name": "US Antarctic Program RV Nathaniel B. Palmer NBP-2010 Navigation Track",
+        "target_path": "D:\\SIH\\backend\\data\\raw\\vessels_historical\\NBP-2010.csv",
+        "expected_format": "CSV GPS Telemetry",
+        "exists": true,
+        "size_bytes": 517326,
+        "size_kb": 505.2,
+        "status": "VERIFIED_PRESENT",
+        "sha256": "b754388ab95d469940fbac65a463a5a1513283a8d4ad17f8c9f96429078b83d4"
+      }
+    ]
+  }
+}

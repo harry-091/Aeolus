@@ -1,0 +1,1041 @@
+[
+  {
+    "id": "S1A_IW_GRDH_1SSH_20240630T103031_20240630T103100_054551_06A3B1",
+    "datetime": "2024-06-30T10:30:46.102941Z",
+    "platform": "SENTINEL-1A",
+    "instrument": "",
+    "processing_level": null,
+    "orbit_direction": "ascending",
+    "relative_orbit": 54,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            160.556015,
+            -74.828545
+          ],
+          [
+            165.684036,
+            -73.039589
+          ],
+          [
+            170.874466,
+            -74.046173
+          ],
+          [
+            166.01712,
+            -75.95285
+          ],
+          [
+            160.556015,
+            -74.828545
+          ]
+        ]
+      ]
+    },
+    "bbox": [
+      160.556015,
+      -75.95285,
+      170.874466,
+      -73.039589
+    ],
+    "assets": [
+      "hh",
+      "thumbnail",
+      "safe-manifest",
+      "schema-noise-hh",
+      "schema-product-hh",
+      "schema-calibration-hh",
+      "tilejson",
+      "rendered_preview"
+    ],
+    "hh_href": "https://sentinel1euwest.blob.core.windows.net/s1-grd/GRD/2024/6/30/IW/SH/S1A_IW_GRDH_1SSH_20240630T103031_20240630T103100_054551_06A3B1_81B0/measurement/iw-hh.tiff?st=2026-08-30T13%3A57%3A07Z&se=2026-08-31T14%3A42%3A07Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-08-31T13%3A51%3A17Z&ske=2026-09-07T13%3A51%3A17Z&sks=b&skv=2025-07-05&sig=3tdDGxZ%2BMgrGaOEeyNBJSupEUgnHJJvSxlTWEoeILdQ%3D",
+    "hh_type": "image/tiff; application=geotiff; profile=cloud-optimized",
+    "hh_extra": {}
+  },
+  {
+    "id": "S1A_EW_GRDM_1SDH_20240630T085222_20240630T085322_054550_06A3A4",
+    "datetime": "2024-06-30T08:52:52.493511Z",
+    "platform": "SENTINEL-1A",
+    "instrument": "",
+    "processing_level": null,
+    "orbit_direction": "ascending",
+    "relative_orbit": 53,
+    "geometry": {
+      "type": "MultiPolygon",
+      "coordinates": [
+        [
+          [
+            [
+              180,
+              -75.29450201720289
+            ],
+            [
+              180,
+              -70.4833571696521
+            ],
+            [
+              171.946518,
+              -72.700966
+            ],
+            [
+              180,
+              -75.29450201720289
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              -180,
+              -70.4833571696521
+            ],
+            [
+              -180,
+              -75.29450201720289
+            ],
+            [
+              -179.304718,
+              -75.51841
+            ],
+            [
+              -170.414429,
+              -72.71257
+            ],
+            [
+              -179.219727,
+              -70.268501
+            ],
+            [
+              -180,
+              -70.4833571696521
+            ]
+          ]
+        ]
+      ]
+    },
+    "bbox": [
+      171.946518,
+      -75.51841,
+      -170.414429,
+      -70.268501
+    ],
+    "assets": [
+      "hh",
+      "hv",
+      "thumbnail",
+      "safe-manifest",
+      "schema-noise-hh",
+      "schema-noise-hv",
+      "schema-product-hh",
+      "schema-product-hv",
+      "schema-calibration-hh",
+      "schema-calibration-hv",
+      "tilejson",
+      "rendered_preview"
+    ],
+    "hh_href": "https://sentinel1euwest.blob.core.windows.net/s1-grd/GRD/2024/6/30/EW/DH/S1A_EW_GRDM_1SDH_20240630T085222_20240630T085322_054550_06A3A4_10BC/measurement/ew-hh.tiff?st=2026-08-30T13%3A57%3A07Z&se=2026-08-31T14%3A42%3A07Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-08-31T13%3A51%3A17Z&ske=2026-09-07T13%3A51%3A17Z&sks=b&skv=2025-07-05&sig=3tdDGxZ%2BMgrGaOEeyNBJSupEUgnHJJvSxlTWEoeILdQ%3D",
+    "hh_type": "image/tiff; application=geotiff; profile=cloud-optimized",
+    "hh_extra": {}
+  },
+  {
+    "id": "S1A_IW_GRDH_1SSH_20240627T100603_20240627T100632_054507_06A22A",
+    "datetime": "2024-06-27T10:06:18.431031Z",
+    "platform": "SENTINEL-1A",
+    "instrument": "",
+    "processing_level": null,
+    "orbit_direction": "ascending",
+    "relative_orbit": 10,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            164.47049,
+            -74.278648
+          ],
+          [
+            169.617416,
+            -72.561043
+          ],
+          [
+            174.55809,
+            -73.614243
+          ],
+          [
+            169.602264,
+            -75.447105
+          ],
+          [
+            164.47049,
+            -74.278648
+          ]
+        ]
+      ]
+    },
+    "bbox": [
+      164.47049,
+      -75.447105,
+      174.55809,
+      -72.561043
+    ],
+    "assets": [
+      "hh",
+      "thumbnail",
+      "safe-manifest",
+      "schema-noise-hh",
+      "schema-product-hh",
+      "schema-calibration-hh",
+      "tilejson",
+      "rendered_preview"
+    ],
+    "hh_href": "https://sentinel1euwest.blob.core.windows.net/s1-grd/GRD/2024/6/27/IW/SH/S1A_IW_GRDH_1SSH_20240627T100603_20240627T100632_054507_06A22A_76CD/measurement/iw-hh.tiff?st=2026-08-30T13%3A57%3A07Z&se=2026-08-31T14%3A42%3A07Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-08-31T13%3A51%3A17Z&ske=2026-09-07T13%3A51%3A17Z&sks=b&skv=2025-07-05&sig=3tdDGxZ%2BMgrGaOEeyNBJSupEUgnHJJvSxlTWEoeILdQ%3D",
+    "hh_type": "image/tiff; application=geotiff; profile=cloud-optimized",
+    "hh_extra": {}
+  },
+  {
+    "id": "S1A_EW_GRDM_1SDH_20240626T092539_20240626T092639_054492_06A1A9",
+    "datetime": "2024-06-26T09:26:09.275623Z",
+    "platform": "SENTINEL-1A",
+    "instrument": "",
+    "processing_level": null,
+    "orbit_direction": "ascending",
+    "relative_orbit": 170,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            161.26088,
+            -71.617851
+          ],
+          [
+            169.999252,
+            -69.27961
+          ],
+          [
+            177.905548,
+            -71.863113
+          ],
+          [
+            168.862762,
+            -74.547691
+          ],
+          [
+            161.26088,
+            -71.617851
+          ]
+        ]
+      ]
+    },
+    "bbox": [
+      161.26088,
+      -74.547691,
+      177.905548,
+      -69.27961
+    ],
+    "assets": [
+      "hh",
+      "hv",
+      "thumbnail",
+      "safe-manifest",
+      "schema-noise-hh",
+      "schema-noise-hv",
+      "schema-product-hh",
+      "schema-product-hv",
+      "schema-calibration-hh",
+      "schema-calibration-hv",
+      "tilejson",
+      "rendered_preview"
+    ],
+    "hh_href": "https://sentinel1euwest.blob.core.windows.net/s1-grd/GRD/2024/6/26/EW/DH/S1A_EW_GRDM_1SDH_20240626T092539_20240626T092639_054492_06A1A9_ABAF/measurement/ew-hh.tiff?st=2026-08-30T13%3A57%3A07Z&se=2026-08-31T14%3A42%3A07Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-08-31T13%3A51%3A17Z&ske=2026-09-07T13%3A51%3A17Z&sks=b&skv=2025-07-05&sig=3tdDGxZ%2BMgrGaOEeyNBJSupEUgnHJJvSxlTWEoeILdQ%3D",
+    "hh_type": "image/tiff; application=geotiff; profile=cloud-optimized",
+    "hh_extra": {}
+  },
+  {
+    "id": "S1A_EW_GRDM_1SDH_20240626T092434_20240626T092539_054492_06A1A9",
+    "datetime": "2024-06-26T09:25:07.121846Z",
+    "platform": "SENTINEL-1A",
+    "instrument": "",
+    "processing_level": null,
+    "orbit_direction": "ascending",
+    "relative_orbit": 170,
+    "geometry": {
+      "type": "MultiPolygon",
+      "coordinates": [
+        [
+          [
+            [
+              180,
+              -77.11742916085137
+            ],
+            [
+              180,
+              -72.29185559909182
+            ],
+            [
+              177.907913,
+              -71.862801
+            ],
+            [
+              168.863647,
+              -74.547966
+            ],
+            [
+              180,
+              -77.11742916085137
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              -180,
+              -72.29185559909182
+            ],
+            [
+              -180,
+              -77.11742916085137
+            ],
+            [
+              -179.394867,
+              -77.25705
+            ],
+            [
+              -171.022308,
+              -74.133041
+            ],
+            [
+              -180,
+              -72.29185559909182
+            ]
+          ]
+        ]
+      ]
+    },
+    "bbox": [
+      168.863647,
+      -77.25705,
+      -171.022308,
+      -71.862801
+    ],
+    "assets": [
+      "hh",
+      "hv",
+      "thumbnail",
+      "safe-manifest",
+      "schema-noise-hh",
+      "schema-noise-hv",
+      "schema-product-hh",
+      "schema-product-hv",
+      "schema-calibration-hh",
+      "schema-calibration-hv",
+      "tilejson",
+      "rendered_preview"
+    ],
+    "hh_href": "https://sentinel1euwest.blob.core.windows.net/s1-grd/GRD/2024/6/26/EW/DH/S1A_EW_GRDM_1SDH_20240626T092434_20240626T092539_054492_06A1A9_1566/measurement/ew-hh.tiff?st=2026-08-30T13%3A57%3A07Z&se=2026-08-31T14%3A42%3A07Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-08-31T13%3A51%3A17Z&ske=2026-09-07T13%3A51%3A17Z&sks=b&skv=2025-07-05&sig=3tdDGxZ%2BMgrGaOEeyNBJSupEUgnHJJvSxlTWEoeILdQ%3D",
+    "hh_type": "image/tiff; application=geotiff; profile=cloud-optimized",
+    "hh_extra": {}
+  },
+  {
+    "id": "S1A_EW_GRDM_1SDH_20240625T084423_20240625T084527_054477_06A120",
+    "datetime": "2024-06-25T08:44:55.560987Z",
+    "platform": "SENTINEL-1A",
+    "instrument": "",
+    "processing_level": null,
+    "orbit_direction": "ascending",
+    "relative_orbit": 155,
+    "geometry": {
+      "type": "MultiPolygon",
+      "coordinates": [
+        [
+          [
+            [
+              180,
+              -74.79103647867245
+            ],
+            [
+              180,
+              -69.60329467146045
+            ],
+            [
+              171.787567,
+              -71.800026
+            ],
+            [
+              180,
+              -74.79103647867245
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              -180,
+              -69.60329467146045
+            ],
+            [
+              -180,
+              -74.79103647867245
+            ],
+            [
+              -179.720505,
+              -74.89283
+            ],
+            [
+              -170.689301,
+              -72.163712
+            ],
+            [
+              -179.433289,
+              -69.451706
+            ],
+            [
+              -180,
+              -69.60329467146045
+            ]
+          ]
+        ]
+      ]
+    },
+    "bbox": [
+      171.787567,
+      -74.89283,
+      -170.689301,
+      -69.451706
+    ],
+    "assets": [
+      "hh",
+      "hv",
+      "thumbnail",
+      "safe-manifest",
+      "schema-noise-hh",
+      "schema-noise-hv",
+      "schema-product-hh",
+      "schema-product-hv",
+      "schema-calibration-hh",
+      "schema-calibration-hv",
+      "tilejson",
+      "rendered_preview"
+    ],
+    "hh_href": "https://sentinel1euwest.blob.core.windows.net/s1-grd/GRD/2024/6/25/EW/DH/S1A_EW_GRDM_1SDH_20240625T084423_20240625T084527_054477_06A120_EF74/measurement/ew-hh.tiff?st=2026-08-30T13%3A57%3A07Z&se=2026-08-31T14%3A42%3A07Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-08-31T13%3A51%3A17Z&ske=2026-09-07T13%3A51%3A17Z&sks=b&skv=2025-07-05&sig=3tdDGxZ%2BMgrGaOEeyNBJSupEUgnHJJvSxlTWEoeILdQ%3D",
+    "hh_type": "image/tiff; application=geotiff; profile=cloud-optimized",
+    "hh_extra": {}
+  },
+  {
+    "id": "S1A_EW_GRDM_1SDH_20240623T090025_20240623T090129_054448_06A025",
+    "datetime": "2024-06-23T09:00:57.439129Z",
+    "platform": "SENTINEL-1A",
+    "instrument": "",
+    "processing_level": null,
+    "orbit_direction": "ascending",
+    "relative_orbit": 126,
+    "geometry": {
+      "type": "MultiPolygon",
+      "coordinates": [
+        [
+          [
+            [
+              180,
+              -75.862609495383
+            ],
+            [
+              180,
+              -70.66491650800957
+            ],
+            [
+              179.693512,
+              -70.58532
+            ],
+            [
+              170.722824,
+              -73.082222
+            ],
+            [
+              180,
+              -75.862609495383
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              -180,
+              -70.66491650800957
+            ],
+            [
+              -180,
+              -75.862609495383
+            ],
+            [
+              -179.459885,
+              -76.024483
+            ],
+            [
+              -170.561829,
+              -73.116058
+            ],
+            [
+              -180,
+              -70.66491650800957
+            ]
+          ]
+        ]
+      ]
+    },
+    "bbox": [
+      170.722824,
+      -76.024483,
+      -170.561829,
+      -70.58532
+    ],
+    "assets": [
+      "hh",
+      "hv",
+      "thumbnail",
+      "safe-manifest",
+      "schema-noise-hh",
+      "schema-noise-hv",
+      "schema-product-hh",
+      "schema-product-hv",
+      "schema-calibration-hh",
+      "schema-calibration-hv",
+      "tilejson",
+      "rendered_preview"
+    ],
+    "hh_href": "https://sentinel1euwest.blob.core.windows.net/s1-grd/GRD/2024/6/23/EW/DH/S1A_EW_GRDM_1SDH_20240623T090025_20240623T090129_054448_06A025_A97A/measurement/ew-hh.tiff?st=2026-08-30T13%3A57%3A07Z&se=2026-08-31T14%3A42%3A07Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-08-31T13%3A51%3A17Z&ske=2026-09-07T13%3A51%3A17Z&sks=b&skv=2025-07-05&sig=3tdDGxZ%2BMgrGaOEeyNBJSupEUgnHJJvSxlTWEoeILdQ%3D",
+    "hh_type": "image/tiff; application=geotiff; profile=cloud-optimized",
+    "hh_extra": {}
+  },
+  {
+    "id": "S1A_EW_GRDM_1SDH_20240621T091635_20240621T091727_054419_069F23",
+    "datetime": "2024-06-21T09:17:01.491688Z",
+    "platform": "SENTINEL-1A",
+    "instrument": "",
+    "processing_level": null,
+    "orbit_direction": "ascending",
+    "relative_orbit": 97,
+    "geometry": {
+      "type": "MultiPolygon",
+      "coordinates": [
+        [
+          [
+            [
+              180,
+              -76.61940030276966
+            ],
+            [
+              180,
+              -71.8566845214444
+            ],
+            [
+              179.772903,
+              -71.807076
+            ],
+            [
+              170.795624,
+              -74.469109
+            ],
+            [
+              179.786209,
+              -76.694267
+            ],
+            [
+              180,
+              -76.61940030276966
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              -180,
+              -71.8566845214444
+            ],
+            [
+              -180,
+              -76.61940030276966
+            ],
+            [
+              -171.624268,
+              -73.686333
+            ],
+            [
+              -180,
+              -71.8566845214444
+            ]
+          ]
+        ]
+      ]
+    },
+    "bbox": [
+      170.795624,
+      -76.694267,
+      -171.624268,
+      -71.807076
+    ],
+    "assets": [
+      "hh",
+      "hv",
+      "thumbnail",
+      "safe-manifest",
+      "schema-noise-hh",
+      "schema-noise-hv",
+      "schema-product-hh",
+      "schema-product-hv",
+      "schema-calibration-hh",
+      "schema-calibration-hv",
+      "tilejson",
+      "rendered_preview"
+    ],
+    "hh_href": "https://sentinel1euwest.blob.core.windows.net/s1-grd/GRD/2024/6/21/EW/DH/S1A_EW_GRDM_1SDH_20240621T091635_20240621T091727_054419_069F23_930F/measurement/ew-hh.tiff?st=2026-08-30T13%3A57%3A07Z&se=2026-08-31T14%3A42%3A07Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-08-31T13%3A51%3A17Z&ske=2026-09-07T13%3A51%3A17Z&sks=b&skv=2025-07-05&sig=3tdDGxZ%2BMgrGaOEeyNBJSupEUgnHJJvSxlTWEoeILdQ%3D",
+    "hh_type": "image/tiff; application=geotiff; profile=cloud-optimized",
+    "hh_extra": {}
+  },
+  {
+    "id": "S1A_IW_GRDH_1SSH_20240619T124754_20240619T124823_054392_069E2F",
+    "datetime": "2024-06-19T12:48:08.724594Z",
+    "platform": "SENTINEL-1A",
+    "instrument": "",
+    "processing_level": null,
+    "orbit_direction": "descending",
+    "relative_orbit": 70,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            163.37265,
+            -78.609871
+          ],
+          [
+            164.164078,
+            -76.377861
+          ],
+          [
+            171.732544,
+            -76.403023
+          ],
+          [
+            172.382401,
+            -78.637428
+          ],
+          [
+            163.37265,
+            -78.609871
+          ]
+        ]
+      ]
+    },
+    "bbox": [
+      163.37265,
+      -78.637428,
+      172.382401,
+      -76.377861
+    ],
+    "assets": [
+      "hh",
+      "thumbnail",
+      "safe-manifest",
+      "schema-noise-hh",
+      "schema-product-hh",
+      "schema-calibration-hh",
+      "tilejson",
+      "rendered_preview"
+    ],
+    "hh_href": "https://sentinel1euwest.blob.core.windows.net/s1-grd/GRD/2024/6/19/IW/SH/S1A_IW_GRDH_1SSH_20240619T124754_20240619T124823_054392_069E2F_C599/measurement/iw-hh.tiff?st=2026-08-30T13%3A57%3A07Z&se=2026-08-31T14%3A42%3A07Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-08-31T13%3A51%3A17Z&ske=2026-09-07T13%3A51%3A17Z&sks=b&skv=2025-07-05&sig=3tdDGxZ%2BMgrGaOEeyNBJSupEUgnHJJvSxlTWEoeILdQ%3D",
+    "hh_type": "image/tiff; application=geotiff; profile=cloud-optimized",
+    "hh_extra": {}
+  },
+  {
+    "id": "S1A_IW_GRDH_1SSH_20240619T111054_20240619T111112_054391_069E27",
+    "datetime": "2024-06-19T11:11:03.512381Z",
+    "platform": "SENTINEL-1A",
+    "instrument": "",
+    "processing_level": null,
+    "orbit_direction": "ascending",
+    "relative_orbit": 69,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            161.914825,
+            -76.849991
+          ],
+          [
+            166.194611,
+            -74.866722
+          ],
+          [
+            170.277802,
+            -75.338638
+          ],
+          [
+            166.457947,
+            -77.391541
+          ],
+          [
+            161.914825,
+            -76.849991
+          ]
+        ]
+      ]
+    },
+    "bbox": [
+      161.914825,
+      -77.391541,
+      170.277802,
+      -74.866722
+    ],
+    "assets": [
+      "hh",
+      "thumbnail",
+      "safe-manifest",
+      "schema-noise-hh",
+      "schema-product-hh",
+      "schema-calibration-hh",
+      "tilejson",
+      "rendered_preview"
+    ],
+    "hh_href": "https://sentinel1euwest.blob.core.windows.net/s1-grd/GRD/2024/6/19/IW/SH/S1A_IW_GRDH_1SSH_20240619T111054_20240619T111112_054391_069E27_9F96/measurement/iw-hh.tiff?st=2026-08-30T13%3A57%3A07Z&se=2026-08-31T14%3A42%3A07Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-08-31T13%3A51%3A17Z&ske=2026-09-07T13%3A51%3A17Z&sks=b&skv=2025-07-05&sig=3tdDGxZ%2BMgrGaOEeyNBJSupEUgnHJJvSxlTWEoeILdQ%3D",
+    "hh_type": "image/tiff; application=geotiff; profile=cloud-optimized",
+    "hh_extra": {}
+  },
+  {
+    "id": "S1A_EW_GRDM_1SDH_20240618T085222_20240618T085327_054375_069D8F",
+    "datetime": "2024-06-18T08:52:55.133321Z",
+    "platform": "SENTINEL-1A",
+    "instrument": "",
+    "processing_level": null,
+    "orbit_direction": "ascending",
+    "relative_orbit": 53,
+    "geometry": {
+      "type": "MultiPolygon",
+      "coordinates": [
+        [
+          [
+            [
+              180,
+              -75.37061932798197
+            ],
+            [
+              180,
+              -70.17657326335623
+            ],
+            [
+              171.34874,
+              -72.538086
+            ],
+            [
+              180,
+              -75.37061932798197
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              -180,
+              -70.17657326335623
+            ],
+            [
+              -180,
+              -75.37061932798197
+            ],
+            [
+              -179.44487,
+              -75.552376
+            ],
+            [
+              -170.406387,
+              -72.708527
+            ],
+            [
+              -179.701447,
+              -70.095078
+            ],
+            [
+              -180,
+              -70.17657326335623
+            ]
+          ]
+        ]
+      ]
+    },
+    "bbox": [
+      171.34874,
+      -75.552376,
+      -170.406387,
+      -70.095078
+    ],
+    "assets": [
+      "hh",
+      "hv",
+      "thumbnail",
+      "safe-manifest",
+      "schema-noise-hh",
+      "schema-noise-hv",
+      "schema-product-hh",
+      "schema-product-hv",
+      "schema-calibration-hh",
+      "schema-calibration-hv",
+      "tilejson",
+      "rendered_preview"
+    ],
+    "hh_href": "https://sentinel1euwest.blob.core.windows.net/s1-grd/GRD/2024/6/18/EW/DH/S1A_EW_GRDM_1SDH_20240618T085222_20240618T085327_054375_069D8F_4A23/measurement/ew-hh.tiff?st=2026-08-30T13%3A57%3A07Z&se=2026-08-31T14%3A42%3A07Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-08-31T13%3A51%3A17Z&ske=2026-09-07T13%3A51%3A17Z&sks=b&skv=2025-07-05&sig=3tdDGxZ%2BMgrGaOEeyNBJSupEUgnHJJvSxlTWEoeILdQ%3D",
+    "hh_type": "image/tiff; application=geotiff; profile=cloud-optimized",
+    "hh_extra": {}
+  },
+  {
+    "id": "S1A_IW_GRDH_1SSH_20240616T153809_20240616T153835_054350_069CB3",
+    "datetime": "2024-06-16T15:38:22.514411Z",
+    "platform": "SENTINEL-1A",
+    "instrument": "",
+    "processing_level": null,
+    "orbit_direction": "descending",
+    "relative_orbit": 28,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            162.828491,
+            -75.850502
+          ],
+          [
+            157.988998,
+            -73.96907
+          ],
+          [
+            162.516312,
+            -73.119644
+          ],
+          [
+            167.599426,
+            -74.899391
+          ],
+          [
+            162.828491,
+            -75.850502
+          ]
+        ]
+      ]
+    },
+    "bbox": [
+      157.988998,
+      -75.850502,
+      167.599426,
+      -73.119644
+    ],
+    "assets": [
+      "hh",
+      "thumbnail",
+      "safe-manifest",
+      "schema-noise-hh",
+      "schema-product-hh",
+      "schema-calibration-hh",
+      "tilejson",
+      "rendered_preview"
+    ],
+    "hh_href": "https://sentinel1euwest.blob.core.windows.net/s1-grd/GRD/2024/6/16/IW/SH/S1A_IW_GRDH_1SSH_20240616T153809_20240616T153835_054350_069CB3_826B/measurement/iw-hh.tiff?st=2026-08-30T13%3A57%3A07Z&se=2026-08-31T14%3A42%3A07Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-08-31T13%3A51%3A17Z&ske=2026-09-07T13%3A51%3A17Z&sks=b&skv=2025-07-05&sig=3tdDGxZ%2BMgrGaOEeyNBJSupEUgnHJJvSxlTWEoeILdQ%3D",
+    "hh_type": "image/tiff; application=geotiff; profile=cloud-optimized",
+    "hh_extra": {}
+  },
+  {
+    "id": "S1A_IW_GRDH_1SSH_20240616T153744_20240616T153809_054350_069CB3",
+    "datetime": "2024-06-16T15:37:57.477065Z",
+    "platform": "SENTINEL-1A",
+    "instrument": "",
+    "processing_level": null,
+    "orbit_direction": "descending",
+    "relative_orbit": 28,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            167.599686,
+            -74.89933
+          ],
+          [
+            162.517822,
+            -73.120094
+          ],
+          [
+            166.578629,
+            -72.17868
+          ],
+          [
+            171.771088,
+            -73.859756
+          ],
+          [
+            167.599686,
+            -74.89933
+          ]
+        ]
+      ]
+    },
+    "bbox": [
+      162.517822,
+      -74.89933,
+      171.771088,
+      -72.17868
+    ],
+    "assets": [
+      "hh",
+      "thumbnail",
+      "safe-manifest",
+      "schema-noise-hh",
+      "schema-product-hh",
+      "schema-calibration-hh",
+      "tilejson",
+      "rendered_preview"
+    ],
+    "hh_href": "https://sentinel1euwest.blob.core.windows.net/s1-grd/GRD/2024/6/16/IW/SH/S1A_IW_GRDH_1SSH_20240616T153744_20240616T153809_054350_069CB3_E073/measurement/iw-hh.tiff?st=2026-08-30T13%3A57%3A07Z&se=2026-08-31T14%3A42%3A07Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-08-31T13%3A51%3A17Z&ske=2026-09-07T13%3A51%3A17Z&sks=b&skv=2025-07-05&sig=3tdDGxZ%2BMgrGaOEeyNBJSupEUgnHJJvSxlTWEoeILdQ%3D",
+    "hh_type": "image/tiff; application=geotiff; profile=cloud-optimized",
+    "hh_extra": {}
+  },
+  {
+    "id": "S1A_EW_GRDM_1SDH_20240616T090827_20240616T090932_054346_069C92",
+    "datetime": "2024-06-16T09:08:59.930225Z",
+    "platform": "SENTINEL-1A",
+    "instrument": "",
+    "processing_level": null,
+    "orbit_direction": "ascending",
+    "relative_orbit": 24,
+    "geometry": {
+      "type": "MultiPolygon",
+      "coordinates": [
+        [
+          [
+            [
+              180,
+              -76.3481403717606
+            ],
+            [
+              180,
+              -71.25887840401953
+            ],
+            [
+              179.202545,
+              -71.068527
+            ],
+            [
+              170.121643,
+              -73.648323
+            ],
+            [
+              180,
+              -76.3481403717606
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              -180,
+              -71.25887840401953
+            ],
+            [
+              -180,
+              -76.3481403717606
+            ],
+            [
+              -179.392273,
+              -76.514236
+            ],
+            [
+              -170.575699,
+              -73.508446
+            ],
+            [
+              -180,
+              -71.25887840401953
+            ]
+          ]
+        ]
+      ]
+    },
+    "bbox": [
+      170.121643,
+      -76.514236,
+      -170.575699,
+      -71.068527
+    ],
+    "assets": [
+      "hh",
+      "hv",
+      "thumbnail",
+      "safe-manifest",
+      "schema-noise-hh",
+      "schema-noise-hv",
+      "schema-product-hh",
+      "schema-product-hv",
+      "schema-calibration-hh",
+      "schema-calibration-hv",
+      "tilejson",
+      "rendered_preview"
+    ],
+    "hh_href": "https://sentinel1euwest.blob.core.windows.net/s1-grd/GRD/2024/6/16/EW/DH/S1A_EW_GRDM_1SDH_20240616T090827_20240616T090932_054346_069C92_D8D2/measurement/ew-hh.tiff?st=2026-08-30T13%3A57%3A07Z&se=2026-08-31T14%3A42%3A07Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-08-31T13%3A51%3A17Z&ske=2026-09-07T13%3A51%3A17Z&sks=b&skv=2025-07-05&sig=3tdDGxZ%2BMgrGaOEeyNBJSupEUgnHJJvSxlTWEoeILdQ%3D",
+    "hh_type": "image/tiff; application=geotiff; profile=cloud-optimized",
+    "hh_extra": {}
+  },
+  {
+    "id": "S1A_IW_GRDH_1SSH_20240615T100604_20240615T100633_054332_069C17",
+    "datetime": "2024-06-15T10:06:19.181084Z",
+    "platform": "SENTINEL-1A",
+    "instrument": "",
+    "processing_level": null,
+    "orbit_direction": "ascending",
+    "relative_orbit": 10,
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            164.449112,
+            -74.284653
+          ],
+          [
+            169.620804,
+            -72.559456
+          ],
+          [
+            174.560654,
+            -73.612602
+          ],
+          [
+            169.580658,
+            -75.453583
+          ],
+          [
+            164.449112,
+            -74.284653
+          ]
+        ]
+      ]
+    },
+    "bbox": [
+      164.449112,
+      -75.453583,
+      174.560654,
+      -72.559456
+    ],
+    "assets": [
+      "hh",
+      "thumbnail",
+      "safe-manifest",
+      "schema-noise-hh",
+      "schema-product-hh",
+      "schema-calibration-hh",
+      "tilejson",
+      "rendered_preview"
+    ],
+    "hh_href": "https://sentinel1euwest.blob.core.windows.net/s1-grd/GRD/2024/6/15/IW/SH/S1A_IW_GRDH_1SSH_20240615T100604_20240615T100633_054332_069C17_8553/measurement/iw-hh.tiff?st=2026-08-30T13%3A57%3A07Z&se=2026-08-31T14%3A42%3A07Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-08-31T13%3A51%3A17Z&ske=2026-09-07T13%3A51%3A17Z&sks=b&skv=2025-07-05&sig=3tdDGxZ%2BMgrGaOEeyNBJSupEUgnHJJvSxlTWEoeILdQ%3D",
+    "hh_type": "image/tiff; application=geotiff; profile=cloud-optimized",
+    "hh_extra": {}
+  }
+]

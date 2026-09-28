@@ -1,0 +1,687 @@
+{
+  "type": "FeatureCollection",
+  "status": "success",
+  "source": "Microsoft Planetary Computer / Copernicus Sentinel-1 C-SAR",
+  "label": "Latest available Sentinel-1 observation",
+  "observation_date": "2024-06-30T10:30:46Z",
+  "provenance": "OBSERVED_SAR_CFAR",
+  "total_obstacles": 26,
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          162.6523,
+          -69.5759
+        ]
+      },
+      "properties": {
+        "target_id": "S1-OBSTACLE-001",
+        "scene_id": "S1A_EW_GRDM_1SDH_20240626T092539_20240626T092639_054492_06A1A9",
+        "latitude": -69.5759,
+        "longitude": 162.6523,
+        "area_km2": 0.05,
+        "dimensions_km": "0.2 x 0.1 km",
+        "peak_sigma0_db": 5.0,
+        "mean_sigma0_db": 4.9,
+        "confidence": 0.774,
+        "classification": "Bergy Bit / Ice Floe Contact",
+        "observation_time": "2024-06-26T09:26:09.275623Z",
+        "sensor": "SENTINEL-1A C-SAR (HH)",
+        "source": "Microsoft Planetary Computer / Copernicus Sentinel-1",
+        "provenance": "OBSERVED_SAR_CFAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          162.5222,
+          -69.8393
+        ]
+      },
+      "properties": {
+        "target_id": "S1-OBSTACLE-002",
+        "scene_id": "S1A_EW_GRDM_1SDH_20240626T092539_20240626T092639_054492_06A1A9",
+        "latitude": -69.8393,
+        "longitude": 162.5222,
+        "area_km2": 0.05,
+        "dimensions_km": "0.55 x 0.1 km",
+        "peak_sigma0_db": 5.0,
+        "mean_sigma0_db": 4.4,
+        "confidence": 0.743,
+        "classification": "Bergy Bit / Ice Floe Contact",
+        "observation_time": "2024-06-26T09:26:09.275623Z",
+        "sensor": "SENTINEL-1A C-SAR (HH)",
+        "source": "Microsoft Planetary Computer / Copernicus Sentinel-1",
+        "provenance": "OBSERVED_SAR_CFAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          164.6418,
+          -70.2571
+        ]
+      },
+      "properties": {
+        "target_id": "S1-OBSTACLE-003",
+        "scene_id": "S1A_EW_GRDM_1SDH_20240626T092539_20240626T092639_054492_06A1A9",
+        "latitude": -70.2571,
+        "longitude": 164.6418,
+        "area_km2": 0.05,
+        "dimensions_km": "0.4 x 0.05 km",
+        "peak_sigma0_db": 4.1,
+        "mean_sigma0_db": 1.9,
+        "confidence": 0.757,
+        "classification": "Bergy Bit / Ice Floe Contact",
+        "observation_time": "2024-06-26T09:26:09.275623Z",
+        "sensor": "SENTINEL-1A C-SAR (HH)",
+        "source": "Microsoft Planetary Computer / Copernicus Sentinel-1",
+        "provenance": "OBSERVED_SAR_CFAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.3439,
+          -71.323
+        ]
+      },
+      "properties": {
+        "target_id": "S1-OBSTACLE-004",
+        "scene_id": "S1A_EW_GRDM_1SDH_20240626T092539_20240626T092639_054492_06A1A9",
+        "latitude": -71.323,
+        "longitude": 170.3439,
+        "area_km2": 0.05,
+        "dimensions_km": "0.35 x 0.1 km",
+        "peak_sigma0_db": 5.0,
+        "mean_sigma0_db": 3.4,
+        "confidence": 0.638,
+        "classification": "Bergy Bit / Ice Floe Contact",
+        "observation_time": "2024-06-26T09:26:09.275623Z",
+        "sensor": "SENTINEL-1A C-SAR (HH)",
+        "source": "Microsoft Planetary Computer / Copernicus Sentinel-1",
+        "provenance": "OBSERVED_SAR_CFAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          164.0567,
+          -71.3333
+        ]
+      },
+      "properties": {
+        "target_id": "S1-OBSTACLE-005",
+        "scene_id": "S1A_EW_GRDM_1SDH_20240626T092539_20240626T092639_054492_06A1A9",
+        "latitude": -71.3333,
+        "longitude": 164.0567,
+        "area_km2": 0.05,
+        "dimensions_km": "0.2 x 0.15 km",
+        "peak_sigma0_db": 0.0,
+        "mean_sigma0_db": -1.8,
+        "confidence": 0.788,
+        "classification": "Bergy Bit / Ice Floe Contact",
+        "observation_time": "2024-06-26T09:26:09.275623Z",
+        "sensor": "SENTINEL-1A C-SAR (HH)",
+        "source": "Microsoft Planetary Computer / Copernicus Sentinel-1",
+        "provenance": "OBSERVED_SAR_CFAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6131,
+          -71.4692
+        ]
+      },
+      "properties": {
+        "target_id": "S1-OBSTACLE-006",
+        "scene_id": "S1A_EW_GRDM_1SDH_20240626T092539_20240626T092639_054492_06A1A9",
+        "latitude": -71.4692,
+        "longitude": 172.6131,
+        "area_km2": 0.05,
+        "dimensions_km": "0.7 x 0.2 km",
+        "peak_sigma0_db": 5.0,
+        "mean_sigma0_db": 3.4,
+        "confidence": 0.764,
+        "classification": "Bergy Bit / Ice Floe Contact",
+        "observation_time": "2024-06-26T09:26:09.275623Z",
+        "sensor": "SENTINEL-1A C-SAR (HH)",
+        "source": "Microsoft Planetary Computer / Copernicus Sentinel-1",
+        "provenance": "OBSERVED_SAR_CFAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          163.387,
+          -71.3848
+        ]
+      },
+      "properties": {
+        "target_id": "S1-OBSTACLE-007",
+        "scene_id": "S1A_EW_GRDM_1SDH_20240626T092539_20240626T092639_054492_06A1A9",
+        "latitude": -71.3848,
+        "longitude": 163.387,
+        "area_km2": 0.05,
+        "dimensions_km": "0.15 x 0.15 km",
+        "peak_sigma0_db": 1.7,
+        "mean_sigma0_db": 0.3,
+        "confidence": 0.79,
+        "classification": "Bergy Bit / Ice Floe Contact",
+        "observation_time": "2024-06-26T09:26:09.275623Z",
+        "sensor": "SENTINEL-1A C-SAR (HH)",
+        "source": "Microsoft Planetary Computer / Copernicus Sentinel-1",
+        "provenance": "OBSERVED_SAR_CFAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.4765,
+          -71.7079
+        ]
+      },
+      "properties": {
+        "target_id": "S1-OBSTACLE-008",
+        "scene_id": "S1A_EW_GRDM_1SDH_20240626T092539_20240626T092639_054492_06A1A9",
+        "latitude": -71.7079,
+        "longitude": 172.4765,
+        "area_km2": 0.05,
+        "dimensions_km": "0.35 x 0.1 km",
+        "peak_sigma0_db": 4.2,
+        "mean_sigma0_db": 2.5,
+        "confidence": 0.7,
+        "classification": "Bergy Bit / Ice Floe Contact",
+        "observation_time": "2024-06-26T09:26:09.275623Z",
+        "sensor": "SENTINEL-1A C-SAR (HH)",
+        "source": "Microsoft Planetary Computer / Copernicus Sentinel-1",
+        "provenance": "OBSERVED_SAR_CFAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.5949,
+          -71.856
+        ]
+      },
+      "properties": {
+        "target_id": "S1-OBSTACLE-009",
+        "scene_id": "S1A_EW_GRDM_1SDH_20240626T092539_20240626T092639_054492_06A1A9",
+        "latitude": -71.856,
+        "longitude": 168.5949,
+        "area_km2": 0.05,
+        "dimensions_km": "0.25 x 0.1 km",
+        "peak_sigma0_db": 3.1,
+        "mean_sigma0_db": 1.5,
+        "confidence": 0.684,
+        "classification": "Bergy Bit / Ice Floe Contact",
+        "observation_time": "2024-06-26T09:26:09.275623Z",
+        "sensor": "SENTINEL-1A C-SAR (HH)",
+        "source": "Microsoft Planetary Computer / Copernicus Sentinel-1",
+        "provenance": "OBSERVED_SAR_CFAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.4051,
+          -72.0392
+        ]
+      },
+      "properties": {
+        "target_id": "S1-OBSTACLE-010",
+        "scene_id": "S1A_EW_GRDM_1SDH_20240626T092539_20240626T092639_054492_06A1A9",
+        "latitude": -72.0392,
+        "longitude": 167.4051,
+        "area_km2": 0.05,
+        "dimensions_km": "0.45 x 0.1 km",
+        "peak_sigma0_db": 5.0,
+        "mean_sigma0_db": 3.9,
+        "confidence": 0.764,
+        "classification": "Bergy Bit / Ice Floe Contact",
+        "observation_time": "2024-06-26T09:26:09.275623Z",
+        "sensor": "SENTINEL-1A C-SAR (HH)",
+        "source": "Microsoft Planetary Computer / Copernicus Sentinel-1",
+        "provenance": "OBSERVED_SAR_CFAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.0228,
+          -72.068
+        ]
+      },
+      "properties": {
+        "target_id": "S1-OBSTACLE-011",
+        "scene_id": "S1A_EW_GRDM_1SDH_20240626T092539_20240626T092639_054492_06A1A9",
+        "latitude": -72.068,
+        "longitude": 168.0228,
+        "area_km2": 0.05,
+        "dimensions_km": "0.2 x 0.05 km",
+        "peak_sigma0_db": 4.5,
+        "mean_sigma0_db": 2.0,
+        "confidence": 0.69,
+        "classification": "Bergy Bit / Ice Floe Contact",
+        "observation_time": "2024-06-26T09:26:09.275623Z",
+        "sensor": "SENTINEL-1A C-SAR (HH)",
+        "source": "Microsoft Planetary Computer / Copernicus Sentinel-1",
+        "provenance": "OBSERVED_SAR_CFAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          165.7992,
+          -72.1812
+        ]
+      },
+      "properties": {
+        "target_id": "S1-OBSTACLE-012",
+        "scene_id": "S1A_EW_GRDM_1SDH_20240626T092539_20240626T092639_054492_06A1A9",
+        "latitude": -72.1812,
+        "longitude": 165.7992,
+        "area_km2": 0.05,
+        "dimensions_km": "0.6 x 0.15 km",
+        "peak_sigma0_db": -0.3,
+        "mean_sigma0_db": -1.6,
+        "confidence": 0.719,
+        "classification": "Bergy Bit / Ice Floe Contact",
+        "observation_time": "2024-06-26T09:26:09.275623Z",
+        "sensor": "SENTINEL-1A C-SAR (HH)",
+        "source": "Microsoft Planetary Computer / Copernicus Sentinel-1",
+        "provenance": "OBSERVED_SAR_CFAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.5676,
+          -72.1853
+        ]
+      },
+      "properties": {
+        "target_id": "S1-OBSTACLE-013",
+        "scene_id": "S1A_EW_GRDM_1SDH_20240626T092539_20240626T092639_054492_06A1A9",
+        "latitude": -72.1853,
+        "longitude": 167.5676,
+        "area_km2": 0.05,
+        "dimensions_km": "0.2 x 0.15 km",
+        "peak_sigma0_db": 2.7,
+        "mean_sigma0_db": 1.8,
+        "confidence": 0.788,
+        "classification": "Bergy Bit / Ice Floe Contact",
+        "observation_time": "2024-06-26T09:26:09.275623Z",
+        "sensor": "SENTINEL-1A C-SAR (HH)",
+        "source": "Microsoft Planetary Computer / Copernicus Sentinel-1",
+        "provenance": "OBSERVED_SAR_CFAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          165.8252,
+          -73.2554
+        ]
+      },
+      "properties": {
+        "target_id": "S1-OBSTACLE-014",
+        "scene_id": "S1A_EW_GRDM_1SDH_20240626T092539_20240626T092639_054492_06A1A9",
+        "latitude": -73.2554,
+        "longitude": 165.8252,
+        "area_km2": 0.05,
+        "dimensions_km": "0.25 x 0.1 km",
+        "peak_sigma0_db": 1.6,
+        "mean_sigma0_db": 0.0,
+        "confidence": 0.799,
+        "classification": "Bergy Bit / Ice Floe Contact",
+        "observation_time": "2024-06-26T09:26:09.275623Z",
+        "sensor": "SENTINEL-1A C-SAR (HH)",
+        "source": "Microsoft Planetary Computer / Copernicus Sentinel-1",
+        "provenance": "OBSERVED_SAR_CFAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.6574,
+          -73.3644
+        ]
+      },
+      "properties": {
+        "target_id": "S1-OBSTACLE-015",
+        "scene_id": "S1A_EW_GRDM_1SDH_20240626T092539_20240626T092639_054492_06A1A9",
+        "latitude": -73.3644,
+        "longitude": 166.6574,
+        "area_km2": 0.05,
+        "dimensions_km": "0.3 x 0.05 km",
+        "peak_sigma0_db": 3.9,
+        "mean_sigma0_db": -0.2,
+        "confidence": 0.758,
+        "classification": "Bergy Bit / Ice Floe Contact",
+        "observation_time": "2024-06-26T09:26:09.275623Z",
+        "sensor": "SENTINEL-1A C-SAR (HH)",
+        "source": "Microsoft Planetary Computer / Copernicus Sentinel-1",
+        "provenance": "OBSERVED_SAR_CFAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.0722,
+          -73.6258
+        ]
+      },
+      "properties": {
+        "target_id": "S1-OBSTACLE-016",
+        "scene_id": "S1A_EW_GRDM_1SDH_20240626T092539_20240626T092639_054492_06A1A9",
+        "latitude": -73.6258,
+        "longitude": 166.0722,
+        "area_km2": 0.05,
+        "dimensions_km": "0.1 x 0.15 km",
+        "peak_sigma0_db": -0.4,
+        "mean_sigma0_db": -1.6,
+        "confidence": 0.726,
+        "classification": "Bergy Bit / Ice Floe Contact",
+        "observation_time": "2024-06-26T09:26:09.275623Z",
+        "sensor": "SENTINEL-1A C-SAR (HH)",
+        "source": "Microsoft Planetary Computer / Copernicus Sentinel-1",
+        "provenance": "OBSERVED_SAR_CFAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          164.8889,
+          -73.9674
+        ]
+      },
+      "properties": {
+        "target_id": "S1-OBSTACLE-017",
+        "scene_id": "S1A_EW_GRDM_1SDH_20240626T092539_20240626T092639_054492_06A1A9",
+        "latitude": -73.9674,
+        "longitude": 164.8889,
+        "area_km2": 0.05,
+        "dimensions_km": "0.15 x 0.15 km",
+        "peak_sigma0_db": -2.0,
+        "mean_sigma0_db": -3.2,
+        "confidence": 0.739,
+        "classification": "Bergy Bit / Ice Floe Contact",
+        "observation_time": "2024-06-26T09:26:09.275623Z",
+        "sensor": "SENTINEL-1A C-SAR (HH)",
+        "source": "Microsoft Planetary Computer / Copernicus Sentinel-1",
+        "provenance": "OBSERVED_SAR_CFAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          161.586,
+          -74.0538
+        ]
+      },
+      "properties": {
+        "target_id": "S1-OBSTACLE-018",
+        "scene_id": "S1A_EW_GRDM_1SDH_20240626T092539_20240626T092639_054492_06A1A9",
+        "latitude": -74.0538,
+        "longitude": 161.586,
+        "area_km2": 0.05,
+        "dimensions_km": "0.25 x 0.05 km",
+        "peak_sigma0_db": 4.5,
+        "mean_sigma0_db": 4.0,
+        "confidence": 0.641,
+        "classification": "Bergy Bit / Ice Floe Contact",
+        "observation_time": "2024-06-26T09:26:09.275623Z",
+        "sensor": "SENTINEL-1A C-SAR (HH)",
+        "source": "Microsoft Planetary Computer / Copernicus Sentinel-1",
+        "provenance": "OBSERVED_SAR_CFAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.3795,
+          -74.5167
+        ]
+      },
+      "properties": {
+        "target_id": "S1-OBSTACLE-019",
+        "scene_id": "S1A_IW_GRDH_1SSH_20240616T153744_20240616T153809_054350_069CB3",
+        "latitude": -74.5167,
+        "longitude": 170.3795,
+        "area_km2": 0.05,
+        "dimensions_km": "0.25 x 0.1 km",
+        "peak_sigma0_db": -0.3,
+        "mean_sigma0_db": -2.0,
+        "confidence": 0.729,
+        "classification": "Bergy Bit / Ice Floe Contact",
+        "observation_time": "2024-06-16T15:37:57.477065Z",
+        "sensor": "SENTINEL-1A C-SAR (HH)",
+        "source": "Microsoft Planetary Computer / Copernicus Sentinel-1",
+        "provenance": "OBSERVED_SAR_CFAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          161.9308,
+          -73.1996
+        ]
+      },
+      "properties": {
+        "target_id": "S1-OBSTACLE-020",
+        "scene_id": "S1A_IW_GRDH_1SSH_20240616T153809_20240616T153835_054350_069CB3",
+        "latitude": -73.1996,
+        "longitude": 161.9308,
+        "area_km2": 0.05,
+        "dimensions_km": "0.2 x 0.05 km",
+        "peak_sigma0_db": -1.1,
+        "mean_sigma0_db": -2.6,
+        "confidence": 0.612,
+        "classification": "Bergy Bit / Ice Floe Contact",
+        "observation_time": "2024-06-16T15:38:22.514411Z",
+        "sensor": "SENTINEL-1A C-SAR (HH)",
+        "source": "Microsoft Planetary Computer / Copernicus Sentinel-1",
+        "provenance": "OBSERVED_SAR_CFAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          160.2715,
+          -74.8883
+        ]
+      },
+      "properties": {
+        "target_id": "S1-OBSTACLE-021",
+        "scene_id": "S1A_IW_GRDH_1SSH_20240616T153809_20240616T153835_054350_069CB3",
+        "latitude": -74.8883,
+        "longitude": 160.2715,
+        "area_km2": 0.05,
+        "dimensions_km": "0.3 x 0.1 km",
+        "peak_sigma0_db": 1.1,
+        "mean_sigma0_db": -1.7,
+        "confidence": 0.746,
+        "classification": "Bergy Bit / Ice Floe Contact",
+        "observation_time": "2024-06-16T15:38:22.514411Z",
+        "sensor": "SENTINEL-1A C-SAR (HH)",
+        "source": "Microsoft Planetary Computer / Copernicus Sentinel-1",
+        "provenance": "OBSERVED_SAR_CFAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          159.3592,
+          -75.3811
+        ]
+      },
+      "properties": {
+        "target_id": "S1-OBSTACLE-022",
+        "scene_id": "S1A_IW_GRDH_1SSH_20240616T153809_20240616T153835_054350_069CB3",
+        "latitude": -75.3811,
+        "longitude": 159.3592,
+        "area_km2": 0.05,
+        "dimensions_km": "0.15 x 0.1 km",
+        "peak_sigma0_db": -1.5,
+        "mean_sigma0_db": -3.3,
+        "confidence": 0.623,
+        "classification": "Bergy Bit / Ice Floe Contact",
+        "observation_time": "2024-06-16T15:38:22.514411Z",
+        "sensor": "SENTINEL-1A C-SAR (HH)",
+        "source": "Microsoft Planetary Computer / Copernicus Sentinel-1",
+        "provenance": "OBSERVED_SAR_CFAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          165.9102,
+          -77.5747
+        ]
+      },
+      "properties": {
+        "target_id": "S1-OBSTACLE-023",
+        "scene_id": "S1A_IW_GRDH_1SSH_20240619T124754_20240619T124823_054392_069E2F",
+        "latitude": -77.5747,
+        "longitude": 165.9102,
+        "area_km2": 0.05,
+        "dimensions_km": "0.4 x 0.1 km",
+        "peak_sigma0_db": -4.3,
+        "mean_sigma0_db": -5.7,
+        "confidence": 0.618,
+        "classification": "Bergy Bit / Ice Floe Contact",
+        "observation_time": "2024-06-19T12:48:08.724594Z",
+        "sensor": "SENTINEL-1A C-SAR (HH)",
+        "source": "Microsoft Planetary Computer / Copernicus Sentinel-1",
+        "provenance": "OBSERVED_SAR_CFAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.065,
+          -77.6753
+        ]
+      },
+      "properties": {
+        "target_id": "S1-OBSTACLE-024",
+        "scene_id": "S1A_IW_GRDH_1SSH_20240619T124754_20240619T124823_054392_069E2F",
+        "latitude": -77.6753,
+        "longitude": 166.065,
+        "area_km2": 0.05,
+        "dimensions_km": "0.15 x 0.1 km",
+        "peak_sigma0_db": -4.6,
+        "mean_sigma0_db": -5.5,
+        "confidence": 0.58,
+        "classification": "Bergy Bit / Ice Floe Contact",
+        "observation_time": "2024-06-19T12:48:08.724594Z",
+        "sensor": "SENTINEL-1A C-SAR (HH)",
+        "source": "Microsoft Planetary Computer / Copernicus Sentinel-1",
+        "provenance": "OBSERVED_SAR_CFAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.1354,
+          -77.7107
+        ]
+      },
+      "properties": {
+        "target_id": "S1-OBSTACLE-025",
+        "scene_id": "S1A_IW_GRDH_1SSH_20240619T124754_20240619T124823_054392_069E2F",
+        "latitude": -77.7107,
+        "longitude": 166.1354,
+        "area_km2": 0.05,
+        "dimensions_km": "0.25 x 0.1 km",
+        "peak_sigma0_db": -3.6,
+        "mean_sigma0_db": -4.8,
+        "confidence": 0.63,
+        "classification": "Bergy Bit / Ice Floe Contact",
+        "observation_time": "2024-06-19T12:48:08.724594Z",
+        "sensor": "SENTINEL-1A C-SAR (HH)",
+        "source": "Microsoft Planetary Computer / Copernicus Sentinel-1",
+        "provenance": "OBSERVED_SAR_CFAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.1666,
+          -78.2376
+        ]
+      },
+      "properties": {
+        "target_id": "S1-OBSTACLE-026",
+        "scene_id": "S1A_IW_GRDH_1SSH_20240619T124754_20240619T124823_054392_069E2F",
+        "latitude": -78.2376,
+        "longitude": 167.1666,
+        "area_km2": 0.05,
+        "dimensions_km": "0.25 x 0.1 km",
+        "peak_sigma0_db": -3.9,
+        "mean_sigma0_db": -5.1,
+        "confidence": 0.634,
+        "classification": "Bergy Bit / Ice Floe Contact",
+        "observation_time": "2024-06-19T12:48:08.724594Z",
+        "sensor": "SENTINEL-1A C-SAR (HH)",
+        "source": "Microsoft Planetary Computer / Copernicus Sentinel-1",
+        "provenance": "OBSERVED_SAR_CFAR"
+      }
+    }
+  ]
+}

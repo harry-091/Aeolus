@@ -1,0 +1,111 @@
+{
+  "total_samples": 10462,
+  "num_voyages": 5,
+  "num_vessels": 5,
+  "feature_count": 32,
+  "feature_names": [
+    "speed_knots",
+    "course_deg",
+    "heading_deg",
+    "sin_course",
+    "cos_course",
+    "latitude",
+    "longitude",
+    "sin_lat",
+    "cos_lat",
+    "sin_lon",
+    "cos_lon",
+    "month",
+    "day_of_year",
+    "hour",
+    "sin_day_of_year",
+    "cos_day_of_year",
+    "sic",
+    "sic_percent",
+    "is_ice_covered",
+    "iceberg_distance_km",
+    "has_iceberg_within_50km",
+    "has_iceberg_within_15km",
+    "bathymetry_depth_m",
+    "is_shallow",
+    "coastline_distance_km",
+    "is_on_land",
+    "ocean_current_speed_ms",
+    "ocean_current_u_ms",
+    "ocean_current_v_ms",
+    "sea_surface_temp_c",
+    "wind_speed_ms",
+    "air_temp_c"
+  ],
+  "target_names": [
+    "target_risk_cost",
+    "target_safe_movement",
+    "target_risk_class",
+    "target_speed_efficiency"
+  ],
+  "train_samples": 6262,
+  "val_samples": 2100,
+  "test_samples": 2100,
+  "train_pct": 59.85,
+  "val_pct": 20.07,
+  "test_pct": 20.07,
+  "train_voyages": [
+    "200809020_voyage_01",
+    "201011040_voyage_01",
+    "201516020_voyage_01"
+  ],
+  "val_voyages": [
+    "201718030_voyage_01"
+  ],
+  "test_voyages": [
+    "201819020_voyage_01"
+  ],
+  "target_stats": {
+    "target_risk_cost": {
+      "mean": 0.25086168992544444,
+      "std": 0.21722860402177743,
+      "min": 0.0,
+      "max": 0.5,
+      "median": 0.376
+    },
+    "target_safe_movement": {
+      "mean": 0.46931753010896576,
+      "std": 0.49908155078858335,
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.0
+    },
+    "target_risk_class": {
+      "mean": 0.5306824698910342,
+      "std": 0.49908155078858335,
+      "min": 0.0,
+      "max": 1.0,
+      "median": 1.0
+    },
+    "target_speed_efficiency": {
+      "mean": 0.4971584591856242,
+      "std": 0.3906037822482768,
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.60705
+    }
+  },
+  "risk_class_distribution": {
+    "0_LOW": 4910,
+    "1_MODERATE": 5552,
+    "2_HIGH": 0,
+    "3_VERY_HIGH": 0
+  },
+  "safe_movement_counts": {
+    "safe_1": 4910,
+    "risky_0": 5552
+  },
+  "leakage_audit": {
+    "train_val_voyage_overlap": [],
+    "train_test_voyage_overlap": [],
+    "val_test_voyage_overlap": [],
+    "zero_leakage_verified": true,
+    "scaler_training_split_only": true,
+    "split_strategy": "chronological_voyage_split"
+  }
+}

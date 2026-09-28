@@ -1,0 +1,97 @@
+{
+  "voyage_id": "POLARSTERN-2017",
+  "vessel_name": "RV Polar Horizon",
+  "vessel_characteristics": {
+    "polar_class": "PC3",
+    "cruising_speed_knots": 15.5,
+    "length_m": 135.0,
+    "beam_m": 24.0,
+    "draft_m": 9.5,
+    "is_unseen_vessel": true
+  },
+  "departure_time": "2015-12-09T00:00:00+00:00",
+  "anti_leakage_verified": true,
+  "temporal_cutoff_enforced": "2015-12-09T00:00:00+00:00",
+  "three_way_baseline_comparison": {
+    "baseline_a_actual_human_ais": {
+      "label": "Actual Historical AIS (Human Navigator)",
+      "distance_km": 7845.8,
+      "transit_hours": 240.0,
+      "mean_sic_pct": 0.0,
+      "max_sic_pct": 0.0,
+      "high_ice_km": 0.0,
+      "iceberg_encounters": 0,
+      "bathymetry_violations": 0,
+      "coastline_land_violations": 0,
+      "composite_safety_index": 1.0
+    },
+    "baseline_b_shortest_path": {
+      "label": "Naive Shortest Path (Distance-Only Geodesic)",
+      "distance_km": 3554.0,
+      "transit_hours": 123.8,
+      "mean_sic_pct": 0.0,
+      "max_sic_pct": 0.0,
+      "high_ice_km": 0.0,
+      "iceberg_encounters": 0,
+      "bathymetry_violations": 0,
+      "coastline_land_violations": 0,
+      "composite_safety_index": 1.0
+    },
+    "candidate_c_polarnav_optimized": {
+      "label": "PolarNav Multi-Objective Route (Balanced Risk)",
+      "distance_km": 2757.1,
+      "transit_hours": 96.0,
+      "mean_sic_pct": 0.0,
+      "max_sic_pct": 0.0,
+      "high_ice_km": 0.0,
+      "iceberg_encounters": 0,
+      "bathymetry_violations": 0,
+      "coastline_land_violations": 0,
+      "composite_safety_index": 1.0
+    },
+    "candidate_d_polarnav_safest": {
+      "label": "PolarNav Conservative Route (Safest Corridor)",
+      "distance_km": 3118.5,
+      "transit_hours": 108.6,
+      "mean_sic_pct": 0.0,
+      "max_sic_pct": 0.0,
+      "high_ice_km": 0.0,
+      "iceberg_encounters": 0,
+      "bathymetry_violations": 0,
+      "coastline_land_violations": 0,
+      "composite_safety_index": 1.0
+    }
+  },
+  "performance_metrics": {
+    "actual_distance_km": 7845.8,
+    "optimized_distance_km": 2757.1,
+    "shortest_baseline_distance_km": 3554.0,
+    "distance_difference_vs_actual_km": 5088.7,
+    "distance_savings_vs_actual_pct": 65.5,
+    "actual_duration_hours": 240.0,
+    "optimized_duration_hours": 96.0,
+    "eta_difference_hours": 144.0,
+    "route_deviation_mean_km": 1172.63,
+    "hausdorff_distance_km": 3471.88,
+    "actual_avg_sic_pct": 0.0,
+    "optimized_avg_sic_pct": 0.0,
+    "shortest_baseline_avg_sic_pct": 0.0,
+    "actual_max_sic_pct": 0.0,
+    "optimized_max_sic_pct": 0.0,
+    "shortest_baseline_max_sic_pct": 0.0,
+    "high_ice_exposure_km": 0.0,
+    "shortest_baseline_high_ice_km": 0.0,
+    "iceberg_violations": 0,
+    "bathymetry_violations": 0,
+    "coastline_land_violations": 0,
+    "shortest_baseline_land_violations": 0,
+    "number_of_reroutes": 0,
+    "computation_time_ms": 1564.87
+  },
+  "scientific_caveats": [
+    "Human captains frequently divert for unrecorded scientific station visits (CTD drops, sediment coring, moorings).",
+    "Naive shortest-path baseline minimizes distance but exhibits severe hazard violations (cutting across sea-ice and shallow bathymetry).",
+    "PolarNav navigates the multi-objective Pareto trade-off: safe clearance with hydrodynamically feasible transit times.",
+    "Historical AIS track serves as a real-world benchmark reference, NOT an absolute ground truth for optimality."
+  ]
+}

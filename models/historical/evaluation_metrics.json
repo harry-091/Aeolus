@@ -1,0 +1,158 @@
+{
+  "xgboost_safety_classifier": {
+    "val": {
+      "accuracy": 1.0,
+      "precision_binary": 1.0,
+      "recall_binary": 1.0,
+      "f1_binary": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          1429,
+          0
+        ],
+        [
+          0,
+          671
+        ]
+      ],
+      "confusion_matrix_breakdown": {
+        "true_negative": 1429,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_positive": 671
+      },
+      "sample_count": 2100
+    },
+    "test": {
+      "accuracy": 1.0,
+      "precision_binary": 1.0,
+      "recall_binary": 1.0,
+      "f1_binary": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          1485,
+          0
+        ],
+        [
+          0,
+          615
+        ]
+      ],
+      "confusion_matrix_breakdown": {
+        "true_negative": 1485,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_positive": 615
+      },
+      "sample_count": 2100
+    }
+  },
+  "rf_safety_classifier": {
+    "val": {
+      "accuracy": 1.0,
+      "precision_binary": 1.0,
+      "recall_binary": 1.0,
+      "f1_binary": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          1429,
+          0
+        ],
+        [
+          0,
+          671
+        ]
+      ],
+      "confusion_matrix_breakdown": {
+        "true_negative": 1429,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_positive": 671
+      },
+      "sample_count": 2100
+    },
+    "test": {
+      "accuracy": 1.0,
+      "precision_binary": 1.0,
+      "recall_binary": 1.0,
+      "f1_binary": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_macro": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          1485,
+          0
+        ],
+        [
+          0,
+          615
+        ]
+      ],
+      "confusion_matrix_breakdown": {
+        "true_negative": 1485,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_positive": 615
+      },
+      "sample_count": 2100
+    }
+  },
+  "xgboost_risk_regressor": {
+    "val": {
+      "mae": 0.0032,
+      "rmse": 0.006,
+      "r2": 0.9993,
+      "median_ae": 0.0001,
+      "max_error": 0.0529,
+      "tolerance_05_accuracy_pct": 99.52,
+      "tolerance_10_accuracy_pct": 100.0,
+      "sample_count": 2100
+    },
+    "test": {
+      "mae": 0.0004,
+      "rmse": 0.0052,
+      "r2": 0.9993,
+      "median_ae": 0.0001,
+      "max_error": 0.0719,
+      "tolerance_05_accuracy_pct": 99.48,
+      "tolerance_10_accuracy_pct": 100.0,
+      "sample_count": 2100
+    }
+  },
+  "rf_risk_regressor": {
+    "val": {
+      "mae": 0.0032,
+      "rmse": 0.0047,
+      "r2": 0.9996,
+      "median_ae": 0.0014,
+      "max_error": 0.0204,
+      "tolerance_05_accuracy_pct": 100.0,
+      "tolerance_10_accuracy_pct": 100.0,
+      "sample_count": 2100
+    },
+    "test": {
+      "mae": 0.0002,
+      "rmse": 0.0016,
+      "r2": 0.9999,
+      "median_ae": 0.0,
+      "max_error": 0.0203,
+      "tolerance_05_accuracy_pct": 100.0,
+      "tolerance_10_accuracy_pct": 100.0,
+      "sample_count": 2100
+    }
+  }
+}

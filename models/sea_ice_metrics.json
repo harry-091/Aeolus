@@ -1,0 +1,12 @@
+{
+  "dataset": "NOAA/NSIDC CDR V4 (G02202)",
+  "model_type": "RandomForestRegressor",
+  "samples_total": 28280,
+  "train_samples": 19796,
+  "test_samples": 4242,
+  "baseline_mae": 0.0575,
+  "test_mae": 0.0401,
+  "test_rmse": 0.1218,
+  "test_r2": 0.8861,
+  "training_time_seconds": 0.25
+}

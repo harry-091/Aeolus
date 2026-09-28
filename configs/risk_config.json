@@ -1,0 +1,32 @@
+{
+  "description": "Prototype risk weights for SIH demonstration. NOT official maritime safety thresholds.",
+  "weights": {
+    "sea_ice": 0.35,
+    "iceberg": 0.30,
+    "weather": 0.15,
+    "ocean": 0.10,
+    "bathymetry": 0.10
+  },
+  "risk_classes": {
+    "LOW": [0.00, 0.25],
+    "MODERATE": [0.25, 0.50],
+    "HIGH": [0.50, 0.75],
+    "VERY_HIGH": [0.75, 1.00]
+  },
+  "sea_ice_thresholds": {
+    "low_max": 0.15,
+    "moderate_max": 0.50,
+    "high_max": 0.80,
+    "description": "Prototype SIC risk thresholds"
+  },
+  "iceberg_distance_km": {
+    "very_high_max": 5.0,
+    "high_max": 15.0,
+    "moderate_max": 30.0,
+    "description": "Prototype distance thresholds in km from predicted iceberg"
+  },
+  "bathymetry": {
+    "min_safe_depth_m": 20.0,
+    "description": "Prototype minimum vessel draft requirement"
+  }
+}

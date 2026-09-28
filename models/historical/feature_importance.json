@@ -1,0 +1,370 @@
+{
+  "xgboost_safety_classifier": [
+    {
+      "feature": "sic",
+      "importance": 1.0,
+      "raw_importance": 1.0,
+      "rank": 1
+    },
+    {
+      "feature": "speed_knots",
+      "importance": 0.0,
+      "raw_importance": 0.0,
+      "rank": 2
+    },
+    {
+      "feature": "course_deg",
+      "importance": 0.0,
+      "raw_importance": 0.0,
+      "rank": 3
+    },
+    {
+      "feature": "heading_deg",
+      "importance": 0.0,
+      "raw_importance": 0.0,
+      "rank": 4
+    },
+    {
+      "feature": "sin_course",
+      "importance": 0.0,
+      "raw_importance": 0.0,
+      "rank": 5
+    },
+    {
+      "feature": "cos_course",
+      "importance": 0.0,
+      "raw_importance": 0.0,
+      "rank": 6
+    },
+    {
+      "feature": "latitude",
+      "importance": 0.0,
+      "raw_importance": 0.0,
+      "rank": 7
+    },
+    {
+      "feature": "longitude",
+      "importance": 0.0,
+      "raw_importance": 0.0,
+      "rank": 8
+    },
+    {
+      "feature": "sin_lat",
+      "importance": 0.0,
+      "raw_importance": 0.0,
+      "rank": 9
+    },
+    {
+      "feature": "cos_lat",
+      "importance": 0.0,
+      "raw_importance": 0.0,
+      "rank": 10
+    },
+    {
+      "feature": "sin_lon",
+      "importance": 0.0,
+      "raw_importance": 0.0,
+      "rank": 11
+    },
+    {
+      "feature": "cos_lon",
+      "importance": 0.0,
+      "raw_importance": 0.0,
+      "rank": 12
+    },
+    {
+      "feature": "month",
+      "importance": 0.0,
+      "raw_importance": 0.0,
+      "rank": 13
+    },
+    {
+      "feature": "day_of_year",
+      "importance": 0.0,
+      "raw_importance": 0.0,
+      "rank": 14
+    },
+    {
+      "feature": "hour",
+      "importance": 0.0,
+      "raw_importance": 0.0,
+      "rank": 15
+    }
+  ],
+  "rf_safety_classifier": [
+    {
+      "feature": "sic",
+      "importance": 0.18689,
+      "raw_importance": 0.18689,
+      "rank": 1
+    },
+    {
+      "feature": "sic_percent",
+      "importance": 0.14796,
+      "raw_importance": 0.14796,
+      "rank": 2
+    },
+    {
+      "feature": "cos_lat",
+      "importance": 0.10687,
+      "raw_importance": 0.10687,
+      "rank": 3
+    },
+    {
+      "feature": "latitude",
+      "importance": 0.09124,
+      "raw_importance": 0.09124,
+      "rank": 4
+    },
+    {
+      "feature": "is_ice_covered",
+      "importance": 0.0893,
+      "raw_importance": 0.0893,
+      "rank": 5
+    },
+    {
+      "feature": "sin_lat",
+      "importance": 0.07738,
+      "raw_importance": 0.07738,
+      "rank": 6
+    },
+    {
+      "feature": "coastline_distance_km",
+      "importance": 0.0666,
+      "raw_importance": 0.0666,
+      "rank": 7
+    },
+    {
+      "feature": "ocean_current_speed_ms",
+      "importance": 0.0601,
+      "raw_importance": 0.0601,
+      "rank": 8
+    },
+    {
+      "feature": "ocean_current_v_ms",
+      "importance": 0.04094,
+      "raw_importance": 0.04094,
+      "rank": 9
+    },
+    {
+      "feature": "longitude",
+      "importance": 0.03892,
+      "raw_importance": 0.03892,
+      "rank": 10
+    },
+    {
+      "feature": "sea_surface_temp_c",
+      "importance": 0.03796,
+      "raw_importance": 0.03796,
+      "rank": 11
+    },
+    {
+      "feature": "day_of_year",
+      "importance": 0.0163,
+      "raw_importance": 0.0163,
+      "rank": 12
+    },
+    {
+      "feature": "cos_lon",
+      "importance": 0.01146,
+      "raw_importance": 0.01146,
+      "rank": 13
+    },
+    {
+      "feature": "ocean_current_u_ms",
+      "importance": 0.01019,
+      "raw_importance": 0.01019,
+      "rank": 14
+    },
+    {
+      "feature": "sin_day_of_year",
+      "importance": 0.00955,
+      "raw_importance": 0.00955,
+      "rank": 15
+    }
+  ],
+  "xgboost_risk_regressor": [
+    {
+      "feature": "sic",
+      "importance": 0.98404,
+      "raw_importance": 0.98404,
+      "rank": 1
+    },
+    {
+      "feature": "sin_day_of_year",
+      "importance": 0.00924,
+      "raw_importance": 0.00924,
+      "rank": 2
+    },
+    {
+      "feature": "sin_lon",
+      "importance": 0.00406,
+      "raw_importance": 0.00406,
+      "rank": 3
+    },
+    {
+      "feature": "latitude",
+      "importance": 0.00155,
+      "raw_importance": 0.00155,
+      "rank": 4
+    },
+    {
+      "feature": "longitude",
+      "importance": 0.00059,
+      "raw_importance": 0.00059,
+      "rank": 5
+    },
+    {
+      "feature": "sin_course",
+      "importance": 0.00038,
+      "raw_importance": 0.00038,
+      "rank": 6
+    },
+    {
+      "feature": "cos_course",
+      "importance": 0.00014,
+      "raw_importance": 0.00014,
+      "rank": 7
+    },
+    {
+      "feature": "speed_knots",
+      "importance": 0.0,
+      "raw_importance": 0.0,
+      "rank": 8
+    },
+    {
+      "feature": "course_deg",
+      "importance": 0.0,
+      "raw_importance": 0.0,
+      "rank": 9
+    },
+    {
+      "feature": "heading_deg",
+      "importance": 0.0,
+      "raw_importance": 0.0,
+      "rank": 10
+    },
+    {
+      "feature": "sin_lat",
+      "importance": 0.0,
+      "raw_importance": 0.0,
+      "rank": 11
+    },
+    {
+      "feature": "cos_lat",
+      "importance": 0.0,
+      "raw_importance": 0.0,
+      "rank": 12
+    },
+    {
+      "feature": "cos_lon",
+      "importance": 0.0,
+      "raw_importance": 0.0,
+      "rank": 13
+    },
+    {
+      "feature": "month",
+      "importance": 0.0,
+      "raw_importance": 0.0,
+      "rank": 14
+    },
+    {
+      "feature": "day_of_year",
+      "importance": 0.0,
+      "raw_importance": 0.0,
+      "rank": 15
+    }
+  ],
+  "rf_risk_regressor": [
+    {
+      "feature": "sic_percent",
+      "importance": 0.55569,
+      "raw_importance": 0.55569,
+      "rank": 1
+    },
+    {
+      "feature": "sic",
+      "importance": 0.4441,
+      "raw_importance": 0.4441,
+      "rank": 2
+    },
+    {
+      "feature": "latitude",
+      "importance": 3e-05,
+      "raw_importance": 3e-05,
+      "rank": 3
+    },
+    {
+      "feature": "longitude",
+      "importance": 3e-05,
+      "raw_importance": 3e-05,
+      "rank": 4
+    },
+    {
+      "feature": "cos_lon",
+      "importance": 3e-05,
+      "raw_importance": 3e-05,
+      "rank": 5
+    },
+    {
+      "feature": "coastline_distance_km",
+      "importance": 3e-05,
+      "raw_importance": 3e-05,
+      "rank": 6
+    },
+    {
+      "feature": "sin_lat",
+      "importance": 2e-05,
+      "raw_importance": 2e-05,
+      "rank": 7
+    },
+    {
+      "feature": "sin_lon",
+      "importance": 2e-05,
+      "raw_importance": 2e-05,
+      "rank": 8
+    },
+    {
+      "feature": "cos_course",
+      "importance": 1e-05,
+      "raw_importance": 1e-05,
+      "rank": 9
+    },
+    {
+      "feature": "cos_lat",
+      "importance": 1e-05,
+      "raw_importance": 1e-05,
+      "rank": 10
+    },
+    {
+      "feature": "day_of_year",
+      "importance": 1e-05,
+      "raw_importance": 1e-05,
+      "rank": 11
+    },
+    {
+      "feature": "sin_day_of_year",
+      "importance": 1e-05,
+      "raw_importance": 1e-05,
+      "rank": 12
+    },
+    {
+      "feature": "sea_surface_temp_c",
+      "importance": 1e-05,
+      "raw_importance": 1e-05,
+      "rank": 13
+    },
+    {
+      "feature": "speed_knots",
+      "importance": 0.0,
+      "raw_importance": 0.0,
+      "rank": 14
+    },
+    {
+      "feature": "course_deg",
+      "importance": 0.0,
+      "raw_importance": 0.0,
+      "rank": 15
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "dataset": "BYU/NIC Antarctic Iceberg Database (180+ Tracked Targets)",
+  "model_type": "RandomForestRegressor",
+  "total_trajectory_steps": 95696,
+  "train_samples": 66987,
+  "test_samples": 14355,
+  "baseline_mae_avg": 0.0659,
+  "test_mae_lat": 0.0023,
+  "test_mae_lon": 0.0602,
+  "mean_position_error_km": 1.7,
+  "median_position_error_km": 0.12,
+  "training_time_seconds": 1.2
+}

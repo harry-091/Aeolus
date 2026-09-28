@@ -1,0 +1,15 @@
+{
+  "feature_columns": [
+    "latitude",
+    "longitude",
+    "speed_kmh",
+    "bearing_deg",
+    "dt_hours",
+    "major_axis_km",
+    "minor_axis_km",
+    "month",
+    "day_of_year"
+  ],
+  "target": "displacement (delta_lat, delta_lon)",
+  "model_type": "RandomForestRegressor"
+}

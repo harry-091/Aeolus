@@ -1,0 +1,2003 @@
+{
+  "routes": [
+    {
+      "id": "aurora_australis_2015_16-route-a",
+      "routeId": "route-a",
+      "name": "ROUTE A - SHORTEST",
+      "type": "shortest",
+      "vessel_id": "aurora_australis_2015_16",
+      "destination": "McMurdo Station",
+      "destinationLat": -77.8419,
+      "destinationLon": 166.6863,
+      "path": [
+        [
+          -42.8826,
+          147.3396
+        ],
+        [
+          -45.7959,
+          148.9519
+        ],
+        [
+          -48.7091,
+          150.5641
+        ],
+        [
+          -51.6224,
+          152.1763
+        ],
+        [
+          -54.5357,
+          153.7885
+        ],
+        [
+          -57.449,
+          155.4008
+        ],
+        [
+          -60.3622,
+          157.013
+        ],
+        [
+          -63.2755,
+          158.6252
+        ],
+        [
+          -66.1888,
+          160.2374
+        ],
+        [
+          -69.1021,
+          161.8496
+        ],
+        [
+          -72.0153,
+          163.4619
+        ],
+        [
+          -74.9286,
+          165.0741
+        ],
+        [
+          -77.8419,
+          166.6863
+        ]
+      ],
+      "distance": 4038,
+      "eta": "150h 21m",
+      "travelTimeHours": 150.4,
+      "fuelConsumption": 1278.1,
+      "fuelUnit": "tonnes",
+      "sicExposure": 0.0,
+      "icebergEncounters": 0,
+      "minIcebergDistance": 11323.0,
+      "riskScore": 15,
+      "iceRisk": "LOW",
+      "icebergRisk": "LOW",
+      "weatherRisk": "MODERATE",
+      "recommended": false,
+      "reason": "Shortest path but crosses high sea-ice concentration zones.",
+      "safetyMargin": "MINIMAL"
+    },
+    {
+      "id": "aurora_australis_2015_16-route-b",
+      "routeId": "route-b",
+      "name": "ROUTE B - BALANCED",
+      "type": "balanced",
+      "vessel_id": "aurora_australis_2015_16",
+      "destination": "McMurdo Station",
+      "destinationLat": -77.8419,
+      "destinationLon": 166.6863,
+      "path": [
+        [
+          -42.8826,
+          147.3396
+        ],
+        [
+          -44.963,
+          147.9551
+        ],
+        [
+          -47.0434,
+          148.5705
+        ],
+        [
+          -49.1237,
+          149.1859
+        ],
+        [
+          -51.2041,
+          149.8014
+        ],
+        [
+          -53.2845,
+          150.4168
+        ],
+        [
+          -55.3649,
+          151.0322
+        ],
+        [
+          -57.4453,
+          151.6477
+        ],
+        [
+          -59.5257,
+          152.2631
+        ],
+        [
+          -61.8152,
+          154.066
+        ],
+        [
+          -64.1047,
+          155.8689
+        ],
+        [
+          -66.3943,
+          157.6718
+        ],
+        [
+          -68.6838,
+          159.4747
+        ],
+        [
+          -70.9733,
+          161.2776
+        ],
+        [
+          -73.2628,
+          163.0805
+        ],
+        [
+          -75.5524,
+          164.8834
+        ],
+        [
+          -77.8419,
+          166.6863
+        ]
+      ],
+      "distance": 4004,
+      "eta": "149h 5m",
+      "travelTimeHours": 149.1,
+      "fuelConsumption": 1267.3,
+      "fuelUnit": "tonnes",
+      "sicExposure": 0.0,
+      "icebergEncounters": 0,
+      "minIcebergDistance": 11323.0,
+      "riskScore": 10,
+      "iceRisk": "LOW",
+      "icebergRisk": "LOW",
+      "weatherRisk": "MODERATE",
+      "recommended": true,
+      "reason": "Balanced route adds -0.8% distance while reducing ice exposure by 100.0%.",
+      "safetyMargin": "STANDARD"
+    },
+    {
+      "id": "aurora_australis_2015_16-route-c",
+      "routeId": "route-c",
+      "name": "ROUTE C - SAFEST",
+      "type": "safest",
+      "vessel_id": "aurora_australis_2015_16",
+      "destination": "McMurdo Station",
+      "destinationLat": -77.8419,
+      "destinationLon": 166.6863,
+      "path": [
+        [
+          -42.8826,
+          147.3396
+        ],
+        [
+          -45.3488,
+          147.9952
+        ],
+        [
+          -47.8149,
+          148.6508
+        ],
+        [
+          -50.2811,
+          149.3064
+        ],
+        [
+          -52.7473,
+          149.962
+        ],
+        [
+          -55.2134,
+          150.6176
+        ],
+        [
+          -57.6796,
+          151.2732
+        ],
+        [
+          -60.1458,
+          151.9288
+        ],
+        [
+          -62.6119,
+          152.5843
+        ],
+        [
+          -62.2572,
+          152.8494
+        ],
+        [
+          -61.9025,
+          153.1144
+        ],
+        [
+          -61.5478,
+          153.3795
+        ],
+        [
+          -61.1931,
+          153.6445
+        ],
+        [
+          -63.2742,
+          155.2748
+        ],
+        [
+          -65.3553,
+          156.905
+        ],
+        [
+          -67.4364,
+          158.5352
+        ],
+        [
+          -69.5175,
+          160.1654
+        ],
+        [
+          -71.5986,
+          161.7956
+        ],
+        [
+          -73.6797,
+          163.4259
+        ],
+        [
+          -75.7608,
+          165.0561
+        ],
+        [
+          -77.8419,
+          166.6863
+        ]
+      ],
+      "distance": 4311,
+      "eta": "160h 33m",
+      "travelTimeHours": 160.6,
+      "fuelConsumption": 1364.7,
+      "fuelUnit": "tonnes",
+      "sicExposure": 0.0,
+      "icebergEncounters": 0,
+      "minIcebergDistance": 11323.0,
+      "riskScore": 5,
+      "iceRisk": "LOW",
+      "icebergRisk": "LOW",
+      "weatherRisk": "MODERATE",
+      "recommended": false,
+      "reason": "Maximum safety with 6.8% extra distance. Avoids all high-risk zones.",
+      "safetyMargin": "MAXIMUM"
+    },
+    {
+      "id": "voyage_200809020-route-a",
+      "routeId": "route-a",
+      "name": "ROUTE A - SHORTEST",
+      "type": "shortest",
+      "vessel_id": "voyage_200809020",
+      "destination": "McMurdo Station",
+      "destinationLat": -77.8419,
+      "destinationLon": 166.6863,
+      "path": [
+        [
+          -42.9394,
+          147.3764
+        ],
+        [
+          -45.8479,
+          148.9856
+        ],
+        [
+          -48.7565,
+          150.5947
+        ],
+        [
+          -51.665,
+          152.2039
+        ],
+        [
+          -54.5736,
+          153.813
+        ],
+        [
+          -57.4821,
+          155.4222
+        ],
+        [
+          -60.3906,
+          157.0313
+        ],
+        [
+          -63.2992,
+          158.6405
+        ],
+        [
+          -66.2077,
+          160.2497
+        ],
+        [
+          -69.1163,
+          161.8588
+        ],
+        [
+          -72.0248,
+          163.468
+        ],
+        [
+          -74.9334,
+          165.0771
+        ],
+        [
+          -77.8419,
+          166.6863
+        ]
+      ],
+      "distance": 4031,
+      "eta": "150h 6m",
+      "travelTimeHours": 150.1,
+      "fuelConsumption": 1275.9,
+      "fuelUnit": "tonnes",
+      "sicExposure": 0.0,
+      "icebergEncounters": 0,
+      "minIcebergDistance": 11323.0,
+      "riskScore": 15,
+      "iceRisk": "LOW",
+      "icebergRisk": "LOW",
+      "weatherRisk": "MODERATE",
+      "recommended": false,
+      "reason": "Shortest path but crosses high sea-ice concentration zones.",
+      "safetyMargin": "MINIMAL"
+    },
+    {
+      "id": "voyage_200809020-route-b",
+      "routeId": "route-b",
+      "name": "ROUTE B - BALANCED",
+      "type": "balanced",
+      "vessel_id": "voyage_200809020",
+      "destination": "McMurdo Station",
+      "destinationLat": -77.8419,
+      "destinationLon": 166.6863,
+      "path": [
+        [
+          -42.9394,
+          147.3764
+        ],
+        [
+          -44.8267,
+          148.0669
+        ],
+        [
+          -46.7139,
+          148.7575
+        ],
+        [
+          -48.6012,
+          149.448
+        ],
+        [
+          -50.4885,
+          150.1386
+        ],
+        [
+          -52.3758,
+          150.8291
+        ],
+        [
+          -54.263,
+          151.5197
+        ],
+        [
+          -56.1503,
+          152.2102
+        ],
+        [
+          -58.0376,
+          152.9007
+        ],
+        [
+          -60.5131,
+          154.6239
+        ],
+        [
+          -62.9887,
+          156.3471
+        ],
+        [
+          -65.4642,
+          158.0703
+        ],
+        [
+          -67.9397,
+          159.7935
+        ],
+        [
+          -70.4153,
+          161.5167
+        ],
+        [
+          -72.8908,
+          163.2399
+        ],
+        [
+          -75.3664,
+          164.9631
+        ],
+        [
+          -77.8419,
+          166.6863
+        ]
+      ],
+      "distance": 4003,
+      "eta": "149h 4m",
+      "travelTimeHours": 149.1,
+      "fuelConsumption": 1267.1,
+      "fuelUnit": "tonnes",
+      "sicExposure": 0.0,
+      "icebergEncounters": 0,
+      "minIcebergDistance": 11323.0,
+      "riskScore": 10,
+      "iceRisk": "LOW",
+      "icebergRisk": "LOW",
+      "weatherRisk": "MODERATE",
+      "recommended": true,
+      "reason": "Balanced route adds -0.7% distance while reducing ice exposure by 100.0%.",
+      "safetyMargin": "STANDARD"
+    },
+    {
+      "id": "voyage_200809020-route-c",
+      "routeId": "route-c",
+      "name": "ROUTE C - SAFEST",
+      "type": "safest",
+      "vessel_id": "voyage_200809020",
+      "destination": "McMurdo Station",
+      "destinationLat": -77.8419,
+      "destinationLon": 166.6863,
+      "path": [
+        [
+          -42.9394,
+          147.3764
+        ],
+        [
+          -45.2184,
+          147.6429
+        ],
+        [
+          -47.4974,
+          147.9093
+        ],
+        [
+          -49.7764,
+          148.1758
+        ],
+        [
+          -52.0554,
+          148.4423
+        ],
+        [
+          -54.3344,
+          148.7087
+        ],
+        [
+          -56.6134,
+          148.9752
+        ],
+        [
+          -58.8924,
+          149.2416
+        ],
+        [
+          -61.1714,
+          149.5081
+        ],
+        [
+          -61.5935,
+          149.5161
+        ],
+        [
+          -62.0155,
+          149.5242
+        ],
+        [
+          -62.4376,
+          149.5322
+        ],
+        [
+          -62.8596,
+          149.5402
+        ],
+        [
+          -64.7324,
+          151.6835
+        ],
+        [
+          -66.6052,
+          153.8268
+        ],
+        [
+          -68.478,
+          155.97
+        ],
+        [
+          -70.3508,
+          158.1133
+        ],
+        [
+          -72.2235,
+          160.2565
+        ],
+        [
+          -74.0963,
+          162.3998
+        ],
+        [
+          -75.9691,
+          164.543
+        ],
+        [
+          -77.8419,
+          166.6863
+        ]
+      ],
+      "distance": 4009,
+      "eta": "149h 16m",
+      "travelTimeHours": 149.3,
+      "fuelConsumption": 1268.9,
+      "fuelUnit": "tonnes",
+      "sicExposure": 0.0,
+      "icebergEncounters": 0,
+      "minIcebergDistance": 11323.0,
+      "riskScore": 5,
+      "iceRisk": "LOW",
+      "icebergRisk": "LOW",
+      "weatherRisk": "MODERATE",
+      "recommended": false,
+      "reason": "Maximum safety with -0.6% extra distance. Avoids all high-risk zones.",
+      "safetyMargin": "MAXIMUM"
+    },
+    {
+      "id": "voyage_201718030-route-a",
+      "routeId": "route-a",
+      "name": "ROUTE A - SHORTEST",
+      "type": "shortest",
+      "vessel_id": "voyage_201718030",
+      "destination": "McMurdo Station",
+      "destinationLat": -77.8419,
+      "destinationLon": 166.6863,
+      "path": [
+        [
+          -42.8819,
+          147.3416
+        ],
+        [
+          -45.7952,
+          148.9536
+        ],
+        [
+          -48.7086,
+          150.5657
+        ],
+        [
+          -51.6219,
+          152.1777
+        ],
+        [
+          -54.5352,
+          153.7898
+        ],
+        [
+          -57.4486,
+          155.4019
+        ],
+        [
+          -60.3619,
+          157.0139
+        ],
+        [
+          -63.2752,
+          158.626
+        ],
+        [
+          -66.1886,
+          160.2381
+        ],
+        [
+          -69.1019,
+          161.8501
+        ],
+        [
+          -72.0152,
+          163.4622
+        ],
+        [
+          -74.9286,
+          165.0742
+        ],
+        [
+          -77.8419,
+          166.6863
+        ]
+      ],
+      "distance": 4038,
+      "eta": "150h 22m",
+      "travelTimeHours": 150.4,
+      "fuelConsumption": 1278.1,
+      "fuelUnit": "tonnes",
+      "sicExposure": 0.0,
+      "icebergEncounters": 0,
+      "minIcebergDistance": 11323.0,
+      "riskScore": 15,
+      "iceRisk": "LOW",
+      "icebergRisk": "LOW",
+      "weatherRisk": "MODERATE",
+      "recommended": false,
+      "reason": "Shortest path but crosses high sea-ice concentration zones.",
+      "safetyMargin": "MINIMAL"
+    },
+    {
+      "id": "voyage_201718030-route-b",
+      "routeId": "route-b",
+      "name": "ROUTE B - BALANCED",
+      "type": "balanced",
+      "vessel_id": "voyage_201718030",
+      "destination": "McMurdo Station",
+      "destinationLat": -77.8419,
+      "destinationLon": 166.6863,
+      "path": [
+        [
+          -42.8819,
+          147.3416
+        ],
+        [
+          -45.422,
+          148.1742
+        ],
+        [
+          -47.9621,
+          149.0067
+        ],
+        [
+          -50.5022,
+          149.8393
+        ],
+        [
+          -53.0423,
+          150.6719
+        ],
+        [
+          -55.5824,
+          151.5045
+        ],
+        [
+          -58.1225,
+          152.3371
+        ],
+        [
+          -60.6626,
+          153.1697
+        ],
+        [
+          -63.2027,
+          154.0023
+        ],
+        [
+          -65.0326,
+          155.5878
+        ],
+        [
+          -66.8625,
+          157.1733
+        ],
+        [
+          -68.6924,
+          158.7588
+        ],
+        [
+          -70.5223,
+          160.3443
+        ],
+        [
+          -72.3522,
+          161.9298
+        ],
+        [
+          -74.1821,
+          163.5153
+        ],
+        [
+          -76.012,
+          165.1008
+        ],
+        [
+          -77.8419,
+          166.6863
+        ]
+      ],
+      "distance": 4000,
+      "eta": "148h 56m",
+      "travelTimeHours": 148.9,
+      "fuelConsumption": 1266.0,
+      "fuelUnit": "tonnes",
+      "sicExposure": 0.0,
+      "icebergEncounters": 0,
+      "minIcebergDistance": 11323.0,
+      "riskScore": 10,
+      "iceRisk": "LOW",
+      "icebergRisk": "LOW",
+      "weatherRisk": "MODERATE",
+      "recommended": true,
+      "reason": "Balanced route adds -0.9% distance while reducing ice exposure by 100.0%.",
+      "safetyMargin": "STANDARD"
+    },
+    {
+      "id": "voyage_201718030-route-c",
+      "routeId": "route-c",
+      "name": "ROUTE C - SAFEST",
+      "type": "safest",
+      "vessel_id": "voyage_201718030",
+      "destination": "McMurdo Station",
+      "destinationLat": -77.8419,
+      "destinationLon": 166.6863,
+      "path": [
+        [
+          -42.8819,
+          147.3416
+        ],
+        [
+          -44.8795,
+          148.6405
+        ],
+        [
+          -46.8772,
+          149.9394
+        ],
+        [
+          -48.8748,
+          151.2383
+        ],
+        [
+          -50.8725,
+          152.5373
+        ],
+        [
+          -52.8701,
+          153.8362
+        ],
+        [
+          -54.8678,
+          155.1351
+        ],
+        [
+          -56.8654,
+          156.4341
+        ],
+        [
+          -58.8631,
+          157.733
+        ],
+        [
+          -59.2824,
+          157.8669
+        ],
+        [
+          -59.7017,
+          158.0008
+        ],
+        [
+          -60.1211,
+          158.1347
+        ],
+        [
+          -60.5404,
+          158.2686
+        ],
+        [
+          -62.7031,
+          159.3208
+        ],
+        [
+          -64.8658,
+          160.373
+        ],
+        [
+          -67.0285,
+          161.4252
+        ],
+        [
+          -69.1912,
+          162.4774
+        ],
+        [
+          -71.3538,
+          163.5297
+        ],
+        [
+          -73.5165,
+          164.5819
+        ],
+        [
+          -75.6792,
+          165.6341
+        ],
+        [
+          -77.8419,
+          166.6863
+        ]
+      ],
+      "distance": 4063,
+      "eta": "151h 18m",
+      "travelTimeHours": 151.3,
+      "fuelConsumption": 1286.2,
+      "fuelUnit": "tonnes",
+      "sicExposure": 0.0,
+      "icebergEncounters": 0,
+      "minIcebergDistance": 11323.0,
+      "riskScore": 5,
+      "iceRisk": "LOW",
+      "icebergRisk": "LOW",
+      "weatherRisk": "MODERATE",
+      "recommended": false,
+      "reason": "Maximum safety with 0.6% extra distance. Avoids all high-risk zones.",
+      "safetyMargin": "MAXIMUM"
+    },
+    {
+      "id": "ant_v_2_1986-route-a",
+      "routeId": "route-a",
+      "name": "ROUTE A - SHORTEST",
+      "type": "shortest",
+      "vessel_id": "ant_v_2_1986",
+      "destination": "Halley VI",
+      "destinationLat": -75.5833,
+      "destinationLon": -26.65,
+      "path": [
+        [
+          -42.2,
+          -55.6
+        ],
+        [
+          -44.9819,
+          -53.1875
+        ],
+        [
+          -47.7639,
+          -50.775
+        ],
+        [
+          -50.5458,
+          -48.3625
+        ],
+        [
+          -53.3278,
+          -45.95
+        ],
+        [
+          -56.1097,
+          -43.5375
+        ],
+        [
+          -58.8916,
+          -41.125
+        ],
+        [
+          -61.6736,
+          -38.7125
+        ],
+        [
+          -64.4555,
+          -36.3
+        ],
+        [
+          -67.2375,
+          -33.8875
+        ],
+        [
+          -70.0194,
+          -31.475
+        ],
+        [
+          -72.8014,
+          -29.0625
+        ],
+        [
+          -75.5833,
+          -26.65
+        ]
+      ],
+      "distance": 4079,
+      "eta": "146h 50m",
+      "travelTimeHours": 146.8,
+      "fuelConsumption": 1350.9,
+      "fuelUnit": "tonnes",
+      "sicExposure": 0.0,
+      "icebergEncounters": 0,
+      "minIcebergDistance": 7210.0,
+      "riskScore": 15,
+      "iceRisk": "LOW",
+      "icebergRisk": "LOW",
+      "weatherRisk": "MODERATE",
+      "recommended": false,
+      "reason": "Shortest path but crosses high sea-ice concentration zones.",
+      "safetyMargin": "MINIMAL"
+    },
+    {
+      "id": "ant_v_2_1986-route-b",
+      "routeId": "route-b",
+      "name": "ROUTE B - BALANCED",
+      "type": "balanced",
+      "vessel_id": "ant_v_2_1986",
+      "destination": "Halley VI",
+      "destinationLat": -75.5833,
+      "destinationLon": -26.65,
+      "path": [
+        [
+          -42.2,
+          -55.6
+        ],
+        [
+          -44.0544,
+          -54.4075
+        ],
+        [
+          -45.9088,
+          -53.215
+        ],
+        [
+          -47.7632,
+          -52.0225
+        ],
+        [
+          -49.6175,
+          -50.83
+        ],
+        [
+          -51.4719,
+          -49.6375
+        ],
+        [
+          -53.3263,
+          -48.445
+        ],
+        [
+          -55.1807,
+          -47.2525
+        ],
+        [
+          -57.0351,
+          -46.06
+        ],
+        [
+          -59.3536,
+          -43.6338
+        ],
+        [
+          -61.6721,
+          -41.2075
+        ],
+        [
+          -63.9907,
+          -38.7813
+        ],
+        [
+          -66.3092,
+          -36.355
+        ],
+        [
+          -68.6277,
+          -33.9288
+        ],
+        [
+          -70.9462,
+          -31.5025
+        ],
+        [
+          -73.2648,
+          -29.0763
+        ],
+        [
+          -75.5833,
+          -26.65
+        ]
+      ],
+      "distance": 4029,
+      "eta": "145h 1m",
+      "travelTimeHours": 145.0,
+      "fuelConsumption": 1334.3,
+      "fuelUnit": "tonnes",
+      "sicExposure": 0.0,
+      "icebergEncounters": 0,
+      "minIcebergDistance": 7256.0,
+      "riskScore": 10,
+      "iceRisk": "LOW",
+      "icebergRisk": "LOW",
+      "weatherRisk": "MODERATE",
+      "recommended": true,
+      "reason": "Balanced route adds -1.2% distance while reducing ice exposure by 100.0%.",
+      "safetyMargin": "STANDARD"
+    },
+    {
+      "id": "ant_v_2_1986-route-c",
+      "routeId": "route-c",
+      "name": "ROUTE C - SAFEST",
+      "type": "safest",
+      "vessel_id": "ant_v_2_1986",
+      "destination": "Halley VI",
+      "destinationLat": -75.5833,
+      "destinationLon": -26.65,
+      "path": [
+        [
+          -42.2,
+          -55.6
+        ],
+        [
+          -43.9042,
+          -53.3943
+        ],
+        [
+          -45.6084,
+          -51.1887
+        ],
+        [
+          -47.3125,
+          -48.983
+        ],
+        [
+          -49.0167,
+          -46.7774
+        ],
+        [
+          -50.7209,
+          -44.5717
+        ],
+        [
+          -52.4251,
+          -42.3661
+        ],
+        [
+          -54.1293,
+          -40.1604
+        ],
+        [
+          -55.8335,
+          -37.9548
+        ],
+        [
+          -56.0731,
+          -38.4716
+        ],
+        [
+          -56.3127,
+          -38.9883
+        ],
+        [
+          -56.5523,
+          -39.5051
+        ],
+        [
+          -56.792,
+          -40.0219
+        ],
+        [
+          -59.1409,
+          -38.3504
+        ],
+        [
+          -61.4898,
+          -36.6789
+        ],
+        [
+          -63.8387,
+          -35.0074
+        ],
+        [
+          -66.1876,
+          -33.3359
+        ],
+        [
+          -68.5365,
+          -31.6645
+        ],
+        [
+          -70.8855,
+          -29.993
+        ],
+        [
+          -73.2344,
+          -28.3215
+        ],
+        [
+          -75.5833,
+          -26.65
+        ]
+      ],
+      "distance": 4331,
+      "eta": "155h 53m",
+      "travelTimeHours": 155.9,
+      "fuelConsumption": 1434.2,
+      "fuelUnit": "tonnes",
+      "sicExposure": 0.0,
+      "icebergEncounters": 0,
+      "minIcebergDistance": 7027.0,
+      "riskScore": 5,
+      "iceRisk": "LOW",
+      "icebergRisk": "LOW",
+      "weatherRisk": "MODERATE",
+      "recommended": false,
+      "reason": "Maximum safety with 6.2% extra distance. Avoids all high-risk zones.",
+      "safetyMargin": "MAXIMUM"
+    },
+    {
+      "id": "ant_xx_3_2003-route-a",
+      "routeId": "route-a",
+      "name": "ROUTE A - SHORTEST",
+      "type": "shortest",
+      "vessel_id": "ant_xx_3_2003",
+      "destination": "Maitri Station",
+      "destinationLat": -70.7667,
+      "destinationLon": 11.7333,
+      "path": [
+        [
+          -33.9149,
+          18.4416
+        ],
+        [
+          -36.9859,
+          17.8826
+        ],
+        [
+          -40.0569,
+          17.3236
+        ],
+        [
+          -43.1279,
+          16.7646
+        ],
+        [
+          -46.1989,
+          16.2055
+        ],
+        [
+          -49.2698,
+          15.6465
+        ],
+        [
+          -52.3408,
+          15.0875
+        ],
+        [
+          -55.4118,
+          14.5284
+        ],
+        [
+          -58.4828,
+          13.9694
+        ],
+        [
+          -61.5538,
+          13.4104
+        ],
+        [
+          -64.6247,
+          12.8514
+        ],
+        [
+          -67.6957,
+          12.2923
+        ],
+        [
+          -70.7667,
+          11.7333
+        ]
+      ],
+      "distance": 4124,
+      "eta": "148h 26m",
+      "travelTimeHours": 148.4,
+      "fuelConsumption": 1365.6,
+      "fuelUnit": "tonnes",
+      "sicExposure": 0.0,
+      "icebergEncounters": 0,
+      "minIcebergDistance": 4233.0,
+      "riskScore": 15,
+      "iceRisk": "LOW",
+      "icebergRisk": "LOW",
+      "weatherRisk": "MODERATE",
+      "recommended": false,
+      "reason": "Shortest path but crosses high sea-ice concentration zones.",
+      "safetyMargin": "MINIMAL"
+    },
+    {
+      "id": "ant_xx_3_2003-route-b",
+      "routeId": "route-b",
+      "name": "ROUTE B - BALANCED",
+      "type": "balanced",
+      "vessel_id": "ant_xx_3_2003",
+      "destination": "Maitri Station",
+      "destinationLat": -70.7667,
+      "destinationLon": 11.7333,
+      "path": [
+        [
+          -33.9149,
+          18.4416
+        ],
+        [
+          -35.8753,
+          17.8181
+        ],
+        [
+          -37.8356,
+          17.1946
+        ],
+        [
+          -39.7959,
+          16.5711
+        ],
+        [
+          -41.7562,
+          15.9475
+        ],
+        [
+          -43.7166,
+          15.324
+        ],
+        [
+          -45.6769,
+          14.7005
+        ],
+        [
+          -47.6372,
+          14.0769
+        ],
+        [
+          -49.5975,
+          13.4534
+        ],
+        [
+          -52.2437,
+          13.2384
+        ],
+        [
+          -54.8898,
+          13.0234
+        ],
+        [
+          -57.536,
+          12.8084
+        ],
+        [
+          -60.1821,
+          12.5934
+        ],
+        [
+          -62.8283,
+          12.3783
+        ],
+        [
+          -65.4744,
+          12.1633
+        ],
+        [
+          -68.1206,
+          11.9483
+        ],
+        [
+          -70.7667,
+          11.7333
+        ]
+      ],
+      "distance": 4148,
+      "eta": "149h 19m",
+      "travelTimeHours": 149.3,
+      "fuelConsumption": 1373.7,
+      "fuelUnit": "tonnes",
+      "sicExposure": 0.0,
+      "icebergEncounters": 0,
+      "minIcebergDistance": 4233.0,
+      "riskScore": 10,
+      "iceRisk": "LOW",
+      "icebergRisk": "LOW",
+      "weatherRisk": "MODERATE",
+      "recommended": true,
+      "reason": "Balanced route adds 0.6% distance while reducing ice exposure by 100.0%.",
+      "safetyMargin": "STANDARD"
+    },
+    {
+      "id": "ant_xx_3_2003-route-c",
+      "routeId": "route-c",
+      "name": "ROUTE C - SAFEST",
+      "type": "safest",
+      "vessel_id": "ant_xx_3_2003",
+      "destination": "Maitri Station",
+      "destinationLat": -70.7667,
+      "destinationLon": 11.7333,
+      "path": [
+        [
+          -33.9149,
+          18.4416
+        ],
+        [
+          -36.7273,
+          17.2158
+        ],
+        [
+          -39.5396,
+          15.99
+        ],
+        [
+          -42.3519,
+          14.7641
+        ],
+        [
+          -45.1642,
+          13.5383
+        ],
+        [
+          -47.9765,
+          12.3124
+        ],
+        [
+          -50.7888,
+          11.0866
+        ],
+        [
+          -53.6011,
+          9.8608
+        ],
+        [
+          -56.4134,
+          8.6349
+        ],
+        [
+          -55.8921,
+          8.7905
+        ],
+        [
+          -55.3709,
+          8.9461
+        ],
+        [
+          -54.8496,
+          9.1017
+        ],
+        [
+          -54.3284,
+          9.2573
+        ],
+        [
+          -56.3832,
+          9.5668
+        ],
+        [
+          -58.438,
+          9.8763
+        ],
+        [
+          -60.4928,
+          10.1858
+        ],
+        [
+          -62.5476,
+          10.4953
+        ],
+        [
+          -64.6023,
+          10.8048
+        ],
+        [
+          -66.6571,
+          11.1143
+        ],
+        [
+          -68.7119,
+          11.4238
+        ],
+        [
+          -70.7667,
+          11.7333
+        ]
+      ],
+      "distance": 4684,
+      "eta": "168h 37m",
+      "travelTimeHours": 168.6,
+      "fuelConsumption": 1551.4,
+      "fuelUnit": "tonnes",
+      "sicExposure": 0.0,
+      "icebergEncounters": 0,
+      "minIcebergDistance": 4233.0,
+      "riskScore": 5,
+      "iceRisk": "LOW",
+      "icebergRisk": "LOW",
+      "weatherRisk": "MODERATE",
+      "recommended": false,
+      "reason": "Maximum safety with 13.6% extra distance. Avoids all high-risk zones.",
+      "safetyMargin": "MAXIMUM"
+    },
+    {
+      "id": "ps118_2018-route-a",
+      "routeId": "route-a",
+      "name": "ROUTE A - SHORTEST",
+      "type": "shortest",
+      "vessel_id": "ps118_2018",
+      "destination": "Halley VI",
+      "destinationLat": -75.5833,
+      "destinationLon": -26.65,
+      "path": [
+        [
+          -53.1712,
+          -70.884
+        ],
+        [
+          -55.0388,
+          -67.1978
+        ],
+        [
+          -56.9065,
+          -63.5117
+        ],
+        [
+          -58.7742,
+          -59.8255
+        ],
+        [
+          -60.6419,
+          -56.1393
+        ],
+        [
+          -62.5096,
+          -52.4532
+        ],
+        [
+          -64.3772,
+          -48.767
+        ],
+        [
+          -66.2449,
+          -45.0808
+        ],
+        [
+          -68.1126,
+          -41.3947
+        ],
+        [
+          -69.9803,
+          -37.7085
+        ],
+        [
+          -71.8479,
+          -34.0223
+        ],
+        [
+          -73.7156,
+          -30.3362
+        ],
+        [
+          -75.5833,
+          -26.65
+        ]
+      ],
+      "distance": 3289,
+      "eta": "118h 23m",
+      "travelTimeHours": 118.4,
+      "fuelConsumption": 1089.2,
+      "fuelUnit": "tonnes",
+      "sicExposure": 0.0,
+      "icebergEncounters": 0,
+      "minIcebergDistance": 8166.0,
+      "riskScore": 15,
+      "iceRisk": "LOW",
+      "icebergRisk": "LOW",
+      "weatherRisk": "MODERATE",
+      "recommended": false,
+      "reason": "Shortest path but crosses high sea-ice concentration zones.",
+      "safetyMargin": "MINIMAL"
+    },
+    {
+      "id": "ps118_2018-route-b",
+      "routeId": "route-b",
+      "name": "ROUTE B - BALANCED",
+      "type": "balanced",
+      "vessel_id": "ps118_2018",
+      "destination": "Halley VI",
+      "destinationLat": -75.5833,
+      "destinationLon": -26.65,
+      "path": [
+        [
+          -53.1712,
+          -70.884
+        ],
+        [
+          -54.3416,
+          -67.8322
+        ],
+        [
+          -55.512,
+          -64.7804
+        ],
+        [
+          -56.6824,
+          -61.7286
+        ],
+        [
+          -57.8528,
+          -58.6768
+        ],
+        [
+          -59.0232,
+          -55.6251
+        ],
+        [
+          -60.1936,
+          -52.5733
+        ],
+        [
+          -61.3641,
+          -49.5215
+        ],
+        [
+          -62.5345,
+          -46.4697
+        ],
+        [
+          -64.1656,
+          -43.9922
+        ],
+        [
+          -65.7967,
+          -41.5148
+        ],
+        [
+          -67.4278,
+          -39.0373
+        ],
+        [
+          -69.0589,
+          -36.5598
+        ],
+        [
+          -70.69,
+          -34.0824
+        ],
+        [
+          -72.3211,
+          -31.6049
+        ],
+        [
+          -73.9522,
+          -29.1275
+        ],
+        [
+          -75.5833,
+          -26.65
+        ]
+      ],
+      "distance": 3434,
+      "eta": "123h 37m",
+      "travelTimeHours": 123.6,
+      "fuelConsumption": 1137.3,
+      "fuelUnit": "tonnes",
+      "sicExposure": 0.0,
+      "icebergEncounters": 0,
+      "minIcebergDistance": 7948.0,
+      "riskScore": 10,
+      "iceRisk": "LOW",
+      "icebergRisk": "LOW",
+      "weatherRisk": "MODERATE",
+      "recommended": true,
+      "reason": "Balanced route adds 4.4% distance while reducing ice exposure by 100.0%.",
+      "safetyMargin": "STANDARD"
+    },
+    {
+      "id": "ps118_2018-route-c",
+      "routeId": "route-c",
+      "name": "ROUTE C - SAFEST",
+      "type": "safest",
+      "vessel_id": "ps118_2018",
+      "destination": "Halley VI",
+      "destinationLat": -75.5833,
+      "destinationLon": -26.65,
+      "path": [
+        [
+          -53.1712,
+          -70.884
+        ],
+        [
+          -54.5266,
+          -67.1732
+        ],
+        [
+          -55.8821,
+          -63.4623
+        ],
+        [
+          -57.2376,
+          -59.7514
+        ],
+        [
+          -58.5931,
+          -56.0406
+        ],
+        [
+          -59.9485,
+          -52.3297
+        ],
+        [
+          -61.304,
+          -48.6189
+        ],
+        [
+          -62.6595,
+          -44.908
+        ],
+        [
+          -64.015,
+          -41.1972
+        ],
+        [
+          -64.1972,
+          -41.1191
+        ],
+        [
+          -64.3794,
+          -41.041
+        ],
+        [
+          -64.5615,
+          -40.963
+        ],
+        [
+          -64.7437,
+          -40.8849
+        ],
+        [
+          -66.0987,
+          -39.1055
+        ],
+        [
+          -67.4536,
+          -37.3262
+        ],
+        [
+          -68.8086,
+          -35.5468
+        ],
+        [
+          -70.1635,
+          -33.7675
+        ],
+        [
+          -71.5185,
+          -31.9881
+        ],
+        [
+          -72.8734,
+          -30.2087
+        ],
+        [
+          -74.2284,
+          -28.4294
+        ],
+        [
+          -75.5833,
+          -26.65
+        ]
+      ],
+      "distance": 3504,
+      "eta": "126h 7m",
+      "travelTimeHours": 126.1,
+      "fuelConsumption": 1160.3,
+      "fuelUnit": "tonnes",
+      "sicExposure": 0.0,
+      "icebergEncounters": 0,
+      "minIcebergDistance": 7867.0,
+      "riskScore": 5,
+      "iceRisk": "LOW",
+      "icebergRisk": "LOW",
+      "weatherRisk": "MODERATE",
+      "recommended": false,
+      "reason": "Maximum safety with 6.5% extra distance. Avoids all high-risk zones.",
+      "safetyMargin": "MAXIMUM"
+    },
+    {
+      "id": "nbp_2010-route-a",
+      "routeId": "route-a",
+      "name": "ROUTE A - SHORTEST",
+      "type": "shortest",
+      "vessel_id": "nbp_2010",
+      "destination": "Halley VI",
+      "destinationLat": -75.5833,
+      "destinationLon": -26.65,
+      "path": [
+        [
+          -52.964,
+          -67.657
+        ],
+        [
+          -54.8489,
+          -64.2398
+        ],
+        [
+          -56.7339,
+          -60.8225
+        ],
+        [
+          -58.6188,
+          -57.4053
+        ],
+        [
+          -60.5038,
+          -53.988
+        ],
+        [
+          -62.3887,
+          -50.5708
+        ],
+        [
+          -64.2737,
+          -47.1535
+        ],
+        [
+          -66.1586,
+          -43.7363
+        ],
+        [
+          -68.0435,
+          -40.319
+        ],
+        [
+          -69.9285,
+          -36.9018
+        ],
+        [
+          -71.8134,
+          -33.4845
+        ],
+        [
+          -73.6984,
+          -30.0673
+        ],
+        [
+          -75.5833,
+          -26.65
+        ]
+      ],
+      "distance": 3213,
+      "eta": "108h 25m",
+      "travelTimeHours": 108.4,
+      "fuelConsumption": 1084.3,
+      "fuelUnit": "tonnes",
+      "sicExposure": 0.0,
+      "icebergEncounters": 0,
+      "minIcebergDistance": 8098.0,
+      "riskScore": 15,
+      "iceRisk": "LOW",
+      "icebergRisk": "LOW",
+      "weatherRisk": "MODERATE",
+      "recommended": false,
+      "reason": "Shortest path but crosses high sea-ice concentration zones.",
+      "safetyMargin": "MINIMAL"
+    },
+    {
+      "id": "nbp_2010-route-b",
+      "routeId": "route-b",
+      "name": "ROUTE B - BALANCED",
+      "type": "balanced",
+      "vessel_id": "nbp_2010",
+      "destination": "Halley VI",
+      "destinationLat": -75.5833,
+      "destinationLon": -26.65,
+      "path": [
+        [
+          -52.964,
+          -67.657
+        ],
+        [
+          -54.1307,
+          -64.9459
+        ],
+        [
+          -55.2973,
+          -62.2348
+        ],
+        [
+          -56.464,
+          -59.5237
+        ],
+        [
+          -57.6306,
+          -56.8127
+        ],
+        [
+          -58.7973,
+          -54.1016
+        ],
+        [
+          -59.9639,
+          -51.3905
+        ],
+        [
+          -61.1306,
+          -48.6794
+        ],
+        [
+          -62.2972,
+          -45.9683
+        ],
+        [
+          -63.958,
+          -43.5535
+        ],
+        [
+          -65.6187,
+          -41.1387
+        ],
+        [
+          -67.2795,
+          -38.7239
+        ],
+        [
+          -68.9403,
+          -36.3092
+        ],
+        [
+          -70.601,
+          -33.8944
+        ],
+        [
+          -72.2618,
+          -31.4796
+        ],
+        [
+          -73.9225,
+          -29.0648
+        ],
+        [
+          -75.5833,
+          -26.65
+        ]
+      ],
+      "distance": 3326,
+      "eta": "112h 15m",
+      "travelTimeHours": 112.3,
+      "fuelConsumption": 1122.5,
+      "fuelUnit": "tonnes",
+      "sicExposure": 0.0,
+      "icebergEncounters": 0,
+      "minIcebergDistance": 7911.0,
+      "riskScore": 10,
+      "iceRisk": "LOW",
+      "icebergRisk": "LOW",
+      "weatherRisk": "MODERATE",
+      "recommended": true,
+      "reason": "Balanced route adds 3.5% distance while reducing ice exposure by 100.0%.",
+      "safetyMargin": "STANDARD"
+    },
+    {
+      "id": "nbp_2010-route-c",
+      "routeId": "route-c",
+      "name": "ROUTE C - SAFEST",
+      "type": "safest",
+      "vessel_id": "nbp_2010",
+      "destination": "Halley VI",
+      "destinationLat": -75.5833,
+      "destinationLon": -26.65,
+      "path": [
+        [
+          -52.964,
+          -67.657
+        ],
+        [
+          -53.9256,
+          -64.9394
+        ],
+        [
+          -54.8871,
+          -62.2217
+        ],
+        [
+          -55.8487,
+          -59.5041
+        ],
+        [
+          -56.8103,
+          -56.7864
+        ],
+        [
+          -57.7719,
+          -54.0688
+        ],
+        [
+          -58.7334,
+          -51.3512
+        ],
+        [
+          -59.695,
+          -48.6335
+        ],
+        [
+          -60.6566,
+          -45.9159
+        ],
+        [
+          -60.3497,
+          -46.5971
+        ],
+        [
+          -60.0429,
+          -47.2784
+        ],
+        [
+          -59.736,
+          -47.9597
+        ],
+        [
+          -59.4291,
+          -48.6409
+        ],
+        [
+          -61.4484,
+          -45.8921
+        ],
+        [
+          -63.4677,
+          -43.1432
+        ],
+        [
+          -65.487,
+          -40.3943
+        ],
+        [
+          -67.5062,
+          -37.6455
+        ],
+        [
+          -69.5255,
+          -34.8966
+        ],
+        [
+          -71.5448,
+          -32.1477
+        ],
+        [
+          -73.564,
+          -29.3989
+        ],
+        [
+          -75.5833,
+          -26.65
+        ]
+      ],
+      "distance": 3809,
+      "eta": "128h 32m",
+      "travelTimeHours": 128.5,
+      "fuelConsumption": 1285.4,
+      "fuelUnit": "tonnes",
+      "sicExposure": 0.0,
+      "icebergEncounters": 0,
+      "minIcebergDistance": 7791.0,
+      "riskScore": 5,
+      "iceRisk": "LOW",
+      "icebergRisk": "LOW",
+      "weatherRisk": "MODERATE",
+      "recommended": false,
+      "reason": "Maximum safety with 18.5% extra distance. Avoids all high-risk zones.",
+      "safetyMargin": "MAXIMUM"
+    }
+  ],
+  "metadata": {
+    "total_routes": 21,
+    "vessels": 7
+  }
+}

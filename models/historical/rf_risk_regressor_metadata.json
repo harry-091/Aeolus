@@ -1,0 +1,401 @@
+{
+  "model_name": "rf_risk_regressor",
+  "target_name": "target_risk_cost",
+  "model_type": "random_forest",
+  "task_type": "regression",
+  "training_timestamp": "2026-09-08T16:34:08.023474+00:00",
+  "dataset_version": "v1.0-phase3",
+  "feature_names": [
+    "speed_knots",
+    "course_deg",
+    "heading_deg",
+    "sin_course",
+    "cos_course",
+    "latitude",
+    "longitude",
+    "sin_lat",
+    "cos_lat",
+    "sin_lon",
+    "cos_lon",
+    "month",
+    "day_of_year",
+    "hour",
+    "sin_day_of_year",
+    "cos_day_of_year",
+    "sic",
+    "sic_percent",
+    "is_ice_covered",
+    "iceberg_distance_km",
+    "has_iceberg_within_50km",
+    "has_iceberg_within_15km",
+    "bathymetry_depth_m",
+    "is_shallow",
+    "coastline_distance_km",
+    "is_on_land",
+    "ocean_current_speed_ms",
+    "ocean_current_u_ms",
+    "ocean_current_v_ms",
+    "sea_surface_temp_c",
+    "wind_speed_ms",
+    "air_temp_c"
+  ],
+  "train_voyages": [
+    "200809020_voyage_01",
+    "201011040_voyage_01",
+    "201516020_voyage_01"
+  ],
+  "val_voyages": [
+    "201718030_voyage_01"
+  ],
+  "test_voyages": [
+    "201819020_voyage_01"
+  ],
+  "hyperparameters": {
+    "n_estimators": 50,
+    "max_depth": 6,
+    "min_samples_split": 10
+  },
+  "val_metrics": {
+    "mae": 0.0032,
+    "rmse": 0.0047,
+    "r2": 0.9996,
+    "median_ae": 0.0014,
+    "max_error": 0.0204,
+    "tolerance_05_accuracy_pct": 100.0,
+    "tolerance_10_accuracy_pct": 100.0,
+    "sample_count": 2100
+  },
+  "test_metrics": {
+    "mae": 0.0002,
+    "rmse": 0.0016,
+    "r2": 0.9999,
+    "median_ae": 0.0,
+    "max_error": 0.0203,
+    "tolerance_05_accuracy_pct": 100.0,
+    "tolerance_10_accuracy_pct": 100.0,
+    "sample_count": 2100
+  },
+  "feature_importance": {
+    "ranked_features": [
+      {
+        "feature": "sic_percent",
+        "importance": 0.55569,
+        "raw_importance": 0.55569,
+        "rank": 1
+      },
+      {
+        "feature": "sic",
+        "importance": 0.4441,
+        "raw_importance": 0.4441,
+        "rank": 2
+      },
+      {
+        "feature": "latitude",
+        "importance": 3e-05,
+        "raw_importance": 3e-05,
+        "rank": 3
+      },
+      {
+        "feature": "longitude",
+        "importance": 3e-05,
+        "raw_importance": 3e-05,
+        "rank": 4
+      },
+      {
+        "feature": "cos_lon",
+        "importance": 3e-05,
+        "raw_importance": 3e-05,
+        "rank": 5
+      },
+      {
+        "feature": "coastline_distance_km",
+        "importance": 3e-05,
+        "raw_importance": 3e-05,
+        "rank": 6
+      },
+      {
+        "feature": "sin_lat",
+        "importance": 2e-05,
+        "raw_importance": 2e-05,
+        "rank": 7
+      },
+      {
+        "feature": "sin_lon",
+        "importance": 2e-05,
+        "raw_importance": 2e-05,
+        "rank": 8
+      },
+      {
+        "feature": "cos_course",
+        "importance": 1e-05,
+        "raw_importance": 1e-05,
+        "rank": 9
+      },
+      {
+        "feature": "cos_lat",
+        "importance": 1e-05,
+        "raw_importance": 1e-05,
+        "rank": 10
+      },
+      {
+        "feature": "day_of_year",
+        "importance": 1e-05,
+        "raw_importance": 1e-05,
+        "rank": 11
+      },
+      {
+        "feature": "sin_day_of_year",
+        "importance": 1e-05,
+        "raw_importance": 1e-05,
+        "rank": 12
+      },
+      {
+        "feature": "sea_surface_temp_c",
+        "importance": 1e-05,
+        "raw_importance": 1e-05,
+        "rank": 13
+      },
+      {
+        "feature": "speed_knots",
+        "importance": 0.0,
+        "raw_importance": 0.0,
+        "rank": 14
+      },
+      {
+        "feature": "course_deg",
+        "importance": 0.0,
+        "raw_importance": 0.0,
+        "rank": 15
+      },
+      {
+        "feature": "heading_deg",
+        "importance": 0.0,
+        "raw_importance": 0.0,
+        "rank": 16
+      },
+      {
+        "feature": "sin_course",
+        "importance": 0.0,
+        "raw_importance": 0.0,
+        "rank": 17
+      },
+      {
+        "feature": "month",
+        "importance": 0.0,
+        "raw_importance": 0.0,
+        "rank": 18
+      },
+      {
+        "feature": "hour",
+        "importance": 0.0,
+        "raw_importance": 0.0,
+        "rank": 19
+      },
+      {
+        "feature": "cos_day_of_year",
+        "importance": 0.0,
+        "raw_importance": 0.0,
+        "rank": 20
+      },
+      {
+        "feature": "is_ice_covered",
+        "importance": 0.0,
+        "raw_importance": 0.0,
+        "rank": 21
+      },
+      {
+        "feature": "iceberg_distance_km",
+        "importance": 0.0,
+        "raw_importance": 0.0,
+        "rank": 22
+      },
+      {
+        "feature": "has_iceberg_within_50km",
+        "importance": 0.0,
+        "raw_importance": 0.0,
+        "rank": 23
+      },
+      {
+        "feature": "has_iceberg_within_15km",
+        "importance": 0.0,
+        "raw_importance": 0.0,
+        "rank": 24
+      },
+      {
+        "feature": "bathymetry_depth_m",
+        "importance": 0.0,
+        "raw_importance": 0.0,
+        "rank": 25
+      },
+      {
+        "feature": "is_shallow",
+        "importance": 0.0,
+        "raw_importance": 0.0,
+        "rank": 26
+      },
+      {
+        "feature": "is_on_land",
+        "importance": 0.0,
+        "raw_importance": 0.0,
+        "rank": 27
+      },
+      {
+        "feature": "ocean_current_speed_ms",
+        "importance": 0.0,
+        "raw_importance": 0.0,
+        "rank": 28
+      },
+      {
+        "feature": "ocean_current_u_ms",
+        "importance": 0.0,
+        "raw_importance": 0.0,
+        "rank": 29
+      },
+      {
+        "feature": "ocean_current_v_ms",
+        "importance": 0.0,
+        "raw_importance": 0.0,
+        "rank": 30
+      },
+      {
+        "feature": "wind_speed_ms",
+        "importance": 0.0,
+        "raw_importance": 0.0,
+        "rank": 31
+      },
+      {
+        "feature": "air_temp_c",
+        "importance": 0.0,
+        "raw_importance": 0.0,
+        "rank": 32
+      }
+    ],
+    "top_features": [
+      {
+        "feature": "sic_percent",
+        "importance": 0.55569,
+        "raw_importance": 0.55569,
+        "rank": 1
+      },
+      {
+        "feature": "sic",
+        "importance": 0.4441,
+        "raw_importance": 0.4441,
+        "rank": 2
+      },
+      {
+        "feature": "latitude",
+        "importance": 3e-05,
+        "raw_importance": 3e-05,
+        "rank": 3
+      },
+      {
+        "feature": "longitude",
+        "importance": 3e-05,
+        "raw_importance": 3e-05,
+        "rank": 4
+      },
+      {
+        "feature": "cos_lon",
+        "importance": 3e-05,
+        "raw_importance": 3e-05,
+        "rank": 5
+      },
+      {
+        "feature": "coastline_distance_km",
+        "importance": 3e-05,
+        "raw_importance": 3e-05,
+        "rank": 6
+      },
+      {
+        "feature": "sin_lat",
+        "importance": 2e-05,
+        "raw_importance": 2e-05,
+        "rank": 7
+      },
+      {
+        "feature": "sin_lon",
+        "importance": 2e-05,
+        "raw_importance": 2e-05,
+        "rank": 8
+      },
+      {
+        "feature": "cos_course",
+        "importance": 1e-05,
+        "raw_importance": 1e-05,
+        "rank": 9
+      },
+      {
+        "feature": "cos_lat",
+        "importance": 1e-05,
+        "raw_importance": 1e-05,
+        "rank": 10
+      },
+      {
+        "feature": "day_of_year",
+        "importance": 1e-05,
+        "raw_importance": 1e-05,
+        "rank": 11
+      },
+      {
+        "feature": "sin_day_of_year",
+        "importance": 1e-05,
+        "raw_importance": 1e-05,
+        "rank": 12
+      },
+      {
+        "feature": "sea_surface_temp_c",
+        "importance": 1e-05,
+        "raw_importance": 1e-05,
+        "rank": 13
+      },
+      {
+        "feature": "speed_knots",
+        "importance": 0.0,
+        "raw_importance": 0.0,
+        "rank": 14
+      },
+      {
+        "feature": "course_deg",
+        "importance": 0.0,
+        "raw_importance": 0.0,
+        "rank": 15
+      }
+    ],
+    "feature_importance_map": {
+      "speed_knots": 0.0,
+      "course_deg": 0.0,
+      "heading_deg": 0.0,
+      "sin_course": 0.0,
+      "cos_course": 1e-05,
+      "latitude": 3e-05,
+      "longitude": 3e-05,
+      "sin_lat": 2e-05,
+      "cos_lat": 1e-05,
+      "sin_lon": 2e-05,
+      "cos_lon": 3e-05,
+      "month": 0.0,
+      "day_of_year": 1e-05,
+      "hour": 0.0,
+      "sin_day_of_year": 1e-05,
+      "cos_day_of_year": 0.0,
+      "sic": 0.4441,
+      "sic_percent": 0.55569,
+      "is_ice_covered": 0.0,
+      "iceberg_distance_km": 0.0,
+      "has_iceberg_within_50km": 0.0,
+      "has_iceberg_within_15km": 0.0,
+      "bathymetry_depth_m": 0.0,
+      "is_shallow": 0.0,
+      "coastline_distance_km": 3e-05,
+      "is_on_land": 0.0,
+      "ocean_current_speed_ms": 0.0,
+      "ocean_current_u_ms": 0.0,
+      "ocean_current_v_ms": 0.0,
+      "sea_surface_temp_c": 1e-05,
+      "wind_speed_ms": 0.0,
+      "air_temp_c": 0.0
+    }
+  },
+  "notes": "DISCLAIMER: ML prediction performance reflects local environmental risk/safety classification per observation and does NOT equate to end-to-end route optimality."
+}
