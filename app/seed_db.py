@@ -16,50 +16,27 @@ for _p in [str(BACKEND_DIR), str(BACKEND_DIR / "src"), str(ROOT_DIR)]:
     if _p not in sys.path:
         sys.path.insert(0, _p)
 
-try:
-    from backend.app.data_transformer import (
-        _load_json,
-        get_alerts,
-        get_icebergs,
-        get_reports,
-        get_routes,
-        get_vessels,
-    )
-    from backend.app.db import (
-        AlertEntity,
-        Base,
-        IcebergEntity,
-        ReportEntity,
-        RouteEntity,
-        StationEntity,
-        VesselEntity,
-        check_db_connection,
-        get_database_url,
-        get_db_engine,
-        get_db_session,
-    )
-except ImportError:
-    from app.data_transformer import (
-        _load_json,
-        get_alerts,
-        get_icebergs,
-        get_reports,
-        get_routes,
-        get_vessels,
-    )
-    from app.db import (
-        AlertEntity,
-        Base,
-        IcebergEntity,
-        ReportEntity,
-        RouteEntity,
-        StationEntity,
-        VesselEntity,
-        check_db_connection,
-        get_database_url,
-        get_db_engine,
-        get_db_session,
-    )
+from app.data_transformer import (
+    _load_json,
+    get_alerts,
+    get_icebergs,
+    get_reports,
+    get_routes,
+    get_vessels,
+)
+from app.db import (
+    AlertEntity,
+    Base,
+    IcebergEntity,
+    ReportEntity,
+    RouteEntity,
+    StationEntity,
+    VesselEntity,
+    check_db_connection,
+    get_database_url,
+    get_db_engine,
+    get_db_session,
+)
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("polarnav.seed")

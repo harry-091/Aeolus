@@ -33,20 +33,12 @@ from shapely.geometry import shape, Point, LineString, MultiPolygon
 import shapely.prepared
 import pyproj
 
-try:
-    from src.data.bathymetry_service import bathymetry_service
-    from src.data.ocean_service import ocean_service
-    from src.data.weather_service import weather_service
-    from src.data.real_sic_service import real_sic_service
-    from src.optimization.fuel_model import fuel_engine
-    from realtime.bathymetry import navigation_geometry_service
-except ImportError:
-    from backend.src.data.bathymetry_service import bathymetry_service
-    from backend.src.data.ocean_service import ocean_service
-    from backend.src.data.weather_service import weather_service
-    from backend.src.data.real_sic_service import real_sic_service
-    from backend.src.optimization.fuel_model import fuel_engine
-    from backend.realtime.bathymetry import navigation_geometry_service
+from src.data.bathymetry_service import bathymetry_service
+from src.data.ocean_service import ocean_service
+from src.data.weather_service import weather_service
+from src.data.real_sic_service import real_sic_service
+from src.optimization.fuel_model import fuel_engine
+from realtime.bathymetry import navigation_geometry_service
 
 logger = logging.getLogger("polarnav.routing_engine")
 

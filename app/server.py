@@ -431,7 +431,7 @@ def api_route_backtest(voyage_id: str = "AAD-2015-16"):
     try:
         from src.vessel_tracking.backtest_engine import execute_route_backtest
     except ImportError:
-        from backend.src.vessel_tracking.backtest_engine import execute_route_backtest
+        from src.vessel_tracking.backtest_engine import execute_route_backtest
     return execute_route_backtest(voyage_id)
 
 
@@ -442,7 +442,7 @@ def api_route_backtest_catalog():
     try:
         from src.vessel_tracking.backtest_engine import get_historical_voyages_catalog
     except ImportError:
-        from backend.src.vessel_tracking.backtest_engine import get_historical_voyages_catalog
+        from src.vessel_tracking.backtest_engine import get_historical_voyages_catalog
     return {"catalog": get_historical_voyages_catalog()}
 
 
@@ -573,7 +573,7 @@ def api_ais_historical_summary():
     try:
         from src.vessel_tracking.ais_validator_cli import run_ais_validation_report
     except ImportError:
-        from backend.src.vessel_tracking.ais_validator_cli import run_ais_validation_report
+        from src.vessel_tracking.ais_validator_cli import run_ais_validation_report
     return run_ais_validation_report(output_json=True)
 
 
@@ -1365,7 +1365,7 @@ def api_copilot_explain(payload: dict):
     Strictly grounded on computed facts. Zero API key leakage.
     """
     try:
-        from backend.services.copilot_service import copilot_service
+        from services.copilot_service import copilot_service
     except ImportError:
         from services.copilot_service import copilot_service
 
@@ -3044,7 +3044,7 @@ def api_health():
 @app.get("/api/db/status")
 def api_db_status():
     """Probe PostgreSQL / PostGIS database connection and entity table counts."""
-    from backend.app.db import check_db_connection
+    from app.db import check_db_connection
     return check_db_connection()
 
 
